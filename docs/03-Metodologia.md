@@ -14,7 +14,7 @@ Ambiente|Plataforma|Link de Acesso
 |Repositório de código fonte|GitHub|  [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t1-time3_airbnpets)|
 |Documentos do projeto|Google Drive|Projeto AirBnPet|[GitHub]()|
 |Projeto de Interface e  Wireframes|Figma|Figma |[Figma]()|
-|Gerenciamento do Projeto|Trello|Projeto AirBnPet (trello.com)|
+|Gerenciamento do Projeto|Trello|[Projeto AirBnPet](trello.com)|
 
 ## Controle de Versão
 
