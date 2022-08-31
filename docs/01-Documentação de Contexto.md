@@ -1,46 +1,47 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O ser humano tem uma longa história de convivência com os animais. Em diversas sociedades os animais possuíam papéis fundamentais desde companhia, proteção do lar, alimentação até eram vistos como divindades. Com o passar do tempo essa relação foi desenvolvendo novos laços.
+
+Atualmente é possível observar que diversas famílias começaram a ver os seus animais de estimação como entes queridos. Esta nova dinâmica entre animais de companhia e humanos traz benefícios para ambos.
+
+De acordo com uma pesquisa realizada pelo Radarpet (2021), foi observada uma mudança em como os donos consideram os animais de estimação. Onde a porcentagem da percepção do animal como filho ou membro da família teve aumento enquanto a visão como apenas companhia ou bicho de estimação teve grande redução.
+
+![image](https://user-images.githubusercontent.com/85761080/187695074-c7d611aa-8b2c-4a2a-843c-e89f13c36906.png)
+
+Esse estreitamento de relações associado ao aumento de animais domésticos gerou um grande mercado voltado para pets. Hoje, o mercado pet já representa 0,36% do PIB brasileiro. Em 2018, a indústria de produtos para animais de estimação faturou R$ 20,3 bilhões. Em 2006, esse número era de R$ 3,3 bi. Onde a maior fatia ficou por conta de Pet Food, que representou 73,9% do faturamento, seguido por Pet Serv (17,7%) e Pet Care (8,4%).  
+
+Essa grande fatia de Pet Care disponibiliza no mercado diversos locais especializados em atender as necessidades específicas dos animais, desde desejos do dono, atenção especial médica e física, além de psicológica do animal.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como exposto, a existência de locais especializados em cuidados animais são diversos, porém, existe uma grande dificuldade em encontrar o local mais adequado para cada dono e animal. A dificuldade em encontrar o local mais adequado pode levar o dono a decidir por um local perigoso. Vemos os reflexos desses tipos de decisões frequentemente nos noticiários sobre animais maltratados e feridos em locais que deveriam cuidar dos mesmos.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de solução tecnológica que auxilie os donos de pet a encontrar o local ideal para hospedar o seu animal, bem como auxiliar os donos de espaço que hospedam animais na divulgação dos mesmos. Visando unir a necessidade de cada animal com o local oferecido que melhor apresente vantagens.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+●	Fornecer funcionalidades de autenticação para controle e organização;
+
+●	Permitir que usuários possam cadastrar locais de hospedagem para animais;
+
+●	Permitir que usuários possam buscar locais para deixar seus pets;
+
+●	Fornecer ferramenta de comunicação entre o dono do animal e os responsáveis do espaço de interesse;
+
+●	Funcionalidade de avaliação dos locais de hospedagem;
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Como exposto na introdução, a visão dos donos em relação aos pets como membros da família e filho é o ponto em que se baseia esse projeto. Percebendo que os donos estão cada dia mais dispostos a gastar grandes quantias em dinheiro com seus animais e o mercado de petcare em alta, foi tomada a decisão de criar uma aplicação que aproxime os dois públicos alvo. Desta forma expandindo o leque de opções do dono do pet e sendo uma vitrine para locais que realizam a hospedagem de pets
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora donos de espaços que aceitam animais para hospedagem possam se beneficiar da plataforma como forma de propaganda e vitrine para clientes, o foco principal é o público que possui o pet e precisa deixá-lo em um espaço adequado por algumas horas do dia ou até por longos períodos de tempo.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Através do estudo realizado pela RadarPet em 2021, é possível observar que as configurações familiares que possuem mais animais são casais sem filhos e famílias com filhos jovens/adultos. Como demonstrado nos gráficos
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+![image](https://user-images.githubusercontent.com/85761080/187695621-9c0044bd-9913-4b77-9819-2aae92df4de1.png)
+
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 25 e 50 anos abrangendo a faixa etária de casais sem filhos e também a faixa etária de famílias com filhos jovens e adultos que possuem animais de estimação.
