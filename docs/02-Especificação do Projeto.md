@@ -1,44 +1,119 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada através de conversas com diversos donos de pet, donos de hospedagens para animais. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+ 	Jane
+	Idade: 41
+Ocupação: Contadora, trabalha em uma pequena empresa. Casada, possui um filho adolescente e um pequeno cão que trata como filho.	Aplicativos:
+●	Instagram
+●	Whatsapp
+●	Telegram
+●	Youtube
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Motivações
+●	Passear com seu pet.
+●	Colocar roupas divertidas no seu pet.
+●	Estar próxima das irmãs e sobrinhos
+	
+ Frustrações
+●	Já teve seu pet machucado em um local que hospeda pets.
+●	Não poder estar sempre próxima da família por não poder deixar o pet sozinho.	
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Hobbies, História
+●	Após a saída do filho de casa, comprou um cachorro e o considera como um filho.
+●	Enviar fotos para familiares de cães e gatos usando roupas engraçadas.
+
+ 	Aline
+	Idade: 41
+Ocupação: Adestradora de animais, freelancer.	Aplicativos:
+●	Instagram
+●	Whatsapp
+●	Facebook
+
+Motivações
+●	Estimular a educação dos pets.
+●	Atividades físicas ao ar livre
+●	Adestração de cães.	
+
+Frustrações
+●	Pessoas que adotam e abandonam animais na rua.
+●	Maus tratos a animais.	
+
+Hobbies, História
+●	Possui uma filosofia de vida:” todos os animais assim como as pessoas devem conviver com outros para auxiliar seu desenvolvimento”. 
+●	Ministrar cursos sobre técnicas básicas de adestramento.
+
+
+ 	Gabriel
+	Idade: 41
+Ocupação: Engenheiro de Software, funcionário de uma multinacional do setor da indústria de cartão de crédito. 	Aplicativos:
+●	Instagram
+●	Linkedin
+●	Aplicativos 
+de bancos
+●	Whatsapp
+
+Motivações
+●	Passear com seus pets.
+●	Viajar pelo mundo.
+●	Sair com os amigos	
+
+Frustrações
+●	Não poder viajar por não ter onde deixar os pets.
+●	Evitar sair com os amigos, pois possui um pet que necessita de medicação controlada.
+●	Alguns dos seus pets se envolvem em brigas quando está fora de casa.	
+
+Hobbies, História
+●	Pegava animais em situação de rua para tratá-los e posteriormente colocar para adoção.
+●	Ama praia.
+
+
+ 	Ruan
+	Idade: 41
+Ocupação: Dono de petshop, especializado em serviços de luxo e pets exóticos, também possui um local que realiza hospedagem de animais. 	Aplicativos:
+●	Instagram
+●	Linkedin
+●	Facebook
+●	Whatsapp
+
+Motivações
+●	Criar animais exóticos.
+●	Expandir o seu empreendimento.
+●	Se tornar referência no mundo de pets exóticos.
+	
+ Frustrações
+●	Tráfico de animais silvestres.
+●	Irresponsabilidade e maus tratos com animais.
+●	Não possuir conhecimento para realização de um marketing do seu empreendimento.	
+
+Hobbies, História
+●	Possui diversos animais exóticos e também realiza o comércio dos mesmos de forma legalizada.
+
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Jane | Pesquisar hospedagens para animais por cidade e bairro         | Que possa encontrar locais seguros para meus animais, quando for a casa de parentes distantes.              |
+|Jane | Poder conversar com o dono da hospedagem de pets       | Saber se o lugar atende as minhas necessidades. |
+|Jane | Poder receber fotos e vídeos dos locais de hospedagem      | Avaliar se a estrutura é realmente a anunciada pelos donos.|
+|Jane | Pesquisar hospedagens para animais por cidade e bairro         | Que possa encontrar locais seguros para meus animais, quando for a casa de parentes distantes.              |
+|Jane |Poder visualizar avaliações e comentários de outros usuários que utilizaram a hospedagem        | Saber qual é o histórico do local.|
+|Aline | Poder utilizar a minha residência como hospedagem de animais        |que possa ter uma renda extra.|
+|Aline| Poder anunciar o serviço de adestramento na plataforma        | Que possa atrair mais clientes.              |
+|Aline | Poder conectar o meu instagram profissional na plataforma     | Que possa expor um conteúdo mais atrativo.|
+|Gabriel | Poder entrar em contato com o dono do local        | Que possa saber se existe a possibilidade tratamento especial para um pet |
+|Gabriel | Poder avaliar os locais que utilizei        | Realizar avaliações positivas e negativas da experiência          |
+|Gabriel | Filtrar os locais de acordo com minha localização       | Poder hospedar alguns de meus pets mesmo viajando         |
+|Ruan | Adicionar ao anúncio do local as características da hospedagem       | Informar ao usuário diversos serviços exclusivos oferecidos.   |
+|Ruan |Poder aceitar quaisquer pets         | Que possa iniciar um serviço de pets exóticos.           |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
@@ -73,51 +148,49 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O aplicativo deverá exigir um cadastro para acesso. | ALTA | 
+|RF-002| O aplicativo deverá possibilitar o cadastro de hospedagens para pet por qualquer usuário.   | ALTA |
+|RF-003| O aplicativo deve permitir que os locais cadastrados possam ter descrições sobre seus serviços.   | ALTA |
+|RF-004| O aplicativo deve permitir ao responsável pelo local cadastrado editar as informações.   | ALTA|
+|RF-005| O aplicativo deve possibilitar ao responsável pelo local cadastrado a exibição de fotos.  | MÉDIA |
+|RF-006|O aplicativo deve permitir ao responsável pelo local cadastrado inativar e ativar o local a qualquer momento.  | ALTA|
+|RF-007| O aplicativo deve possibilitar aos usuários realizar buscas por nome do local, cidade ou bairro. | ALTA |
+|RF-008| O aplicativo deve exibir os resultados de pesquisas como lista   | ALTA|
+|RF-009| O aplicativo deve possibilitar a visualização da página da hospedagem de interesse através da seleção de um item na lista pesquisada.  | ALTA |
+|RF-010| O aplicativo deve possuir um sistema de mensagem para os usuários entrarem em contato com o dono da hospedagem.  | ALTA |
+|RF-011| O aplicativo deve permitir que usuários postem avaliações sobre as hospedagens utilizadas.  | ALTA |
+|RF-012| O aplicativo deve permitir a todos usuários a possibilidade de troca de senha.   | ALTA |
+|RF-013| O aplicativo deve possuir conectividade com redes sociais.   | BAIXA |
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| Deve ser um aplicativo mobile desenvolvido nas linguagens XXXX;  | ALTA| 
+|RNF-002| O aplicativo deverá ser compatível com IOS e Android |  ALTA |
+|RNF-003| O aplicativo deve ter bom nível de contraste entre os elementos da tela em conformidade  |  MÉDIA | 
+|RNF-004| O aplicativo deve possuir um tempo de resposta dos componentes inferior a 3 segundos |  ALTA | 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 07/12/2022. |
+|02| O desenvolvimento do aplicativo deve se restringir às tecnologias descritas no RNF-01      |
+|02|A equipe não pode subcontratar o desenvolvimento do trabalho.      |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
