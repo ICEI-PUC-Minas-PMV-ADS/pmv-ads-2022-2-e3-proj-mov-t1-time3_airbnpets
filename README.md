@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+AirBnPets
 
-`CURSO`
+ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA`
+Eixo 3 - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio
 
-`SEMESTRE`
+Turma 01 - 2022/2
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Solução em formato de aplicativo para a plataforma android que tem como objetivo auxiliar os donos de pet a encontrar o local ideal para hospedar o seu animal, bem como auxiliar os donos de espaço que hospedam animais na divulgação dos mesmos. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Rocha
+* Bárbara Augusta
+* Bruna Carline
+* Henrique Augusto
+* Raphael Latini
+* ○	Raquel Fernandes
 
 ## Orientador
 
-* Nome completo do professor 1
+Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
