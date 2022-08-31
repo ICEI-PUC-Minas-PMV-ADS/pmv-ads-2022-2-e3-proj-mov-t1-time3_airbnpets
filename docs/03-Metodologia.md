@@ -9,7 +9,7 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-|Ambiente                          | Plataforma | Link de Acesso |
+|Ambiente                          | Plataforma | 
 |Repositório de código fonte       | GitHub     |
 |Documentos do projeto             |Google Drive|
 |Projeto de Interface e  Wireframes|Figma       |
