@@ -9,18 +9,12 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-Ambiente                          | Plataforma | 
-|Repositório de código fonte       | GitHub     |
-|Documentos do projeto             |Google Drive|
-|Projeto de Interface e  Wireframes|Figma       |
-|Gerenciamento do Projeto          |Trello      |
-
 Ambiente|Plataforma|Link de Acesso
 |:--------|:----------:|:--------------:|
-|Repositório|GitHub|  [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-descarte-sustentavel)|
-|Documentos do projeto|GitHubDocs|Projeto Descarte Sustentável|[GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e2-proj-int-t2-descarte-sustentavel/tree/main/docs)|
-|Projeto de Interface e  Wireframes|Adobe XD|Adobe XD |[Adobe XD](Adobe XD | Ferramenta de colaboração e design de UI/UX rápida e avançada)|
-|Gerenciamento do Projeto|Github|Descarte Sustentável (github.com)|
+|Repositório de código fonte|GitHub|  [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t1-time3_airbnpets)|
+|Documentos do projeto|Google Drive|Projeto AirBnPet|[GitHub]()|
+|Projeto de Interface e  Wireframes|Figma|Figma |[Figma]()|
+|Gerenciamento do Projeto|Trello|Projeto AirBnPet (trello.com)|
 
 ## Controle de Versão
 
