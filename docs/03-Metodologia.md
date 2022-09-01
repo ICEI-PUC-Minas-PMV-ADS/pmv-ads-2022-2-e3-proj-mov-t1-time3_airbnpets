@@ -74,7 +74,7 @@ A equipe está organizada da seguinte maneira:
 
 -	Equipe de Design
 
---	Arthur Rocha
+-	Arthur Rocha
 
 ### Processo
 
