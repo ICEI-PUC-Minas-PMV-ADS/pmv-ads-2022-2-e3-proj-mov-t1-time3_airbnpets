@@ -14,7 +14,7 @@ Ambiente|Plataforma|Link de Acesso
 |Repositório de código fonte|GitHub|  [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t1-time3_airbnpets)|
 |Documentos do projeto|Google Drive|[Google Drive](https://drive.google.com/drive/folders/18Un3_VGCzc43zS4sqI4PKXDmpYd4Nrv2?usp=sharing)|
 |Projeto de Interface e  Wireframes|Figma|[Figma](https://www.figma.com/file/fMX7HnRXcDDJTibfLEijcY/AirbnPets?node-id=0%3A1)|
-|Gerenciamento do Projeto|Trello|[Projeto AirBnPet](https://trello.com/b/bPXeFHhv/projeto-pet)|
+|Gerenciamento do Projeto|Trello|[Trello](https://trello.com/b/bPXeFHhv/projeto-pet)|
 
 ## Controle de Versão
 
@@ -145,11 +145,12 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: 
+- Editor de código: ****
 - Organização: Trello
 - Repositório: Github
 - Wireframe: Figma
-- Adicionar mais***
+- Documentação: Google Drive
+- Reuniões: Microsoft Teams
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
