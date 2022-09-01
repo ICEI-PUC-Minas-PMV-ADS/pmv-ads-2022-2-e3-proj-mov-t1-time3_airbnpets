@@ -39,6 +39,8 @@ etiquetas:
 
 ## Rastreabilidade de requisitos
 
+![image](https://user-images.githubusercontent.com/Matriz de rastreabilidade dos requisitos.png)
+
 ## Planejamento do Projeto
 
 O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: _Code Reviews, Overviews, Plannings com Poker Planning_ e _Sprint Reviews_.
