@@ -159,10 +159,10 @@ O cronograma de atividades individuais ou em equipes menores será definido no i
 
 No momento apenas as atividades do pré-projeto foram definidas e as demais atividades serão complementadas na tabela no decorrer do projeto
 
-![img](img/cronograma pessoal.png)
+![img](img/cronograma_pessoal.png)
 
 ### Cronograma de custos
 
 O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$27.000,00 como custo total do projeto.
 
-![img](img/cronograma de custos.png)
+![img](img/cronograma_custos.png)
