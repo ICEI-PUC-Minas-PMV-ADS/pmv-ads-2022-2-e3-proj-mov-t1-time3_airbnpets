@@ -12,7 +12,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 Ambiente|Plataforma|Link de Acesso
 |:--------|:----------:|:--------------:|
 |Repositório de código fonte|GitHub|  [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t1-time3_airbnpets)|
-|Documentos do projeto|Google Drive|Projeto AirBnPet|[GitHub](https://drive.google.com/drive/folders/18Un3_VGCzc43zS4sqI4PKXDmpYd4Nrv2?usp=sharing)|
+|Documentos do projeto|Google Drive|Projeto AirBnPet| [Drive](https://drive.google.com/drive/folders/18Un3_VGCzc43zS4sqI4PKXDmpYd4Nrv2?usp=sharing)|
 |Projeto de Interface e  Wireframes|Figma|[Figma](https://www.figma.com/file/fMX7HnRXcDDJTibfLEijcY/AirbnPets?node-id=0%3A1)|
 |Gerenciamento do Projeto|Trello|[Projeto AirBnPet](https://trello.com/b/bPXeFHhv/projeto-pet)|
 
