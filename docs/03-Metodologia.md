@@ -54,23 +54,23 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
-⦁	Scrum Master: Arthur Rocha
+-	Scrum Master: Arthur Rocha
 
-⦁	Product Owner: Raphael Latini
+-	Product Owner: Raphael Latini
 
-⦁	Equipe de Desenvolvimento
+-	Equipe de Desenvolvimento
 
-⦁	Bárbara Augusta
+-	Bárbara Augusta
 
-⦁	Bruna Carline
+-	Bruna Carline
 
-⦁	Henrique Augusto
+-	Henrique Augusto
 
-⦁	Raquel Fernandes
+-	Raquel Fernandes
 
-⦁	Equipe de Design
+-	Equipe de Design
 
-⦁	Arthur Rocha
+-	Arthur Rocha
 
 ### Processo
 
