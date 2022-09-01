@@ -83,6 +83,17 @@ Sprint 04 - 26/11/2022 - 07/12/2022 |
 
 ## Gestão de requisitos
 
+Semanalmente será reavaliado o backlog para possível redefinição de prioridades, ao final de cada Sprint será aplicado um plano de teste referente ao entregáveis de cada Sprint para avaliação da consistência da solução.
+
+Ao início de cada Sprint será realizado uma reunião de Planning definindo as atividades individuais e uma estimativa de tempo para realização de cada tarefa.
+
+A definição de sprints como exposto anteriormente terá como proposta o desenvolvimento dos seguintes requisitos em ordem cronológica.
+
+- Sprint 1- RF-01 e RF-13 - CRUD de cadastro (Criação, edição e exclusão)
+- Sprint 2- RF-02, RF-03, RF-04, RF-05, RF-06 e RF-12- CRUD completo locais de hospedagem.
+- Sprint 3- RF-07, RF-08 e RF-09 - Exibição de informações e criação dos filtros.
+- Sprint 4- RF-10 e RF-11 – Montagem das funcionalidades de mensagem e avaliação.
+
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -132,14 +143,23 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: 
+- Organização: Trello
+- Repositório: Github
+- Wireframe: Figma
+- Adicionar mais***
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+### Cronograma de pessoal
+
+O cronograma de atividades individuais ou em equipes menores será definido no início de cada sprint através de micro tarefas para realização das entregas.
+
+No momento apenas as atividades do pré-projeto foram definidas e as demais atividades serão complementadas na tabela no decorrer do projeto
+
+
+
+### Cronograma de custos
+
+O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$27.000,00 como custo total do projeto.
+
