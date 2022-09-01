@@ -39,7 +39,7 @@ etiquetas:
 
 ## Rastreabilidade de requisitos
 
-![img/Matriz de rastreabilidade dos requisitos.pn]
+![[img](https://github.com/pmv-ads-2022-2-e3-proj-mov-t1-time3_airbnpets/blob/main/docs/img/Matriz de rastreabilidade dos requisitos.png)
 
 ## Planejamento do Projeto
 
