@@ -37,6 +37,16 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
+## Rastreabilidade de requisitos
+
+## Planejamento do Projeto
+
+O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: Code Reviews, Overviews, Plannings com Poker Planning e Sprint Reviews.
+
+Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo
+
+## Gestão de requisitos
+
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
