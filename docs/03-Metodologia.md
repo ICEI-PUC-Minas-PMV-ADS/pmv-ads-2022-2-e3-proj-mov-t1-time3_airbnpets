@@ -55,8 +55,11 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 ⦁	Scrum Master: Arthur Rocha
+
 ⦁	Product Owner: Raphael Latini
+
 ⦁	Equipe de Desenvolvimento
+
 ⦁	Bárbara Augusta
 ⦁	Bruna Carline
 ⦁	Henrique Augusto
