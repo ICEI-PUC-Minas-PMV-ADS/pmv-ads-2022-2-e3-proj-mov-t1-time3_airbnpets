@@ -41,9 +41,17 @@ etiquetas:
 
 ## Planejamento do Projeto
 
-O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: Code Reviews, Overviews, Plannings com Poker Planning e Sprint Reviews.
+O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: _Code Reviews, Overviews, Plannings com Poker Planning_ e _Sprint Reviews_.
 
 Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo
+
+Sprint 01 - 04/09/2022 - 07/09/2022|
+|:--------|
+|CRUD DE CADASTRO|
+|DEFINIÇÃO DE LAYOUTS|
+|Projeto de Interface e  Wireframes|
+|Gerenciamento do Projeto|
+Sprint 02 - 08/09/2022 - 28/09/2022 |
 
 ## Gestão de requisitos
 
