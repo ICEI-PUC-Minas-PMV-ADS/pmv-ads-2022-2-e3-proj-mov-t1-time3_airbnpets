@@ -39,7 +39,7 @@ etiquetas:
 
 ## Rastreabilidade de requisitos
 
-![image](https://user-images.githubusercontent.com/Matriz de rastreabilidade dos requisitos.png)
+![img/Matriz de rastreabilidade dos requisitos.pn]
 
 ## Planejamento do Projeto
 
