@@ -156,7 +156,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O aplicativo deverá exigir um cadastro para acesso. | ALTA | 
+|RF-001| O aplicativo deverá possuir possibilidade de navegação para usuários não cadastrados. | ALTA | 
 |RF-002| O aplicativo deverá possibilitar o cadastro de hospedagens para pet por qualquer usuário.   | ALTA |
 |RF-003| O aplicativo deve permitir que os locais cadastrados possam ter descrições sobre seus serviços.   | ALTA |
 |RF-004| O aplicativo deve permitir ao responsável pelo local cadastrado editar as informações.   | ALTA|
