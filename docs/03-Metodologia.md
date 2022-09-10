@@ -37,65 +37,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-## Rastreabilidade de requisitos
-
-![img](img/Matriz_de_rastreabilidade_dos_requisitos.png)
-
-## Planejamento do Projeto
-
-O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: _Code Reviews, Overviews, Plannings com Poker Planning_ e _Sprint Reviews_.
-
-Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo
-
-Sprint 01 - 04/09/2022 - 07/09/2022|
-|:--------|
-|CRUD DE CADASTRO|
-|DEFINIÇÃO DE LAYOUTS|
-|PERSISTÊNCIA DE DADOS NO BANCO|
-|DESENVOLVIMENTO PLANO TESTES 01|
-
-
-Sprint 02 - 08/09/2022 - 28/09/2022 |
-|:--------|
-|CRUD CADASTRO LOCAIS|
-|DEFINIÇÃO DE LAYOUTS|
-|PERSISTÊNCIA DE DADOS NO BANCO|
-|EXECUÇÃO PLANO DE TESTES 01|
-|DESENVOLVIMENTO PLANO TESTE 02|
-
-
-Sprint 03 - 29/09/2022 - 25/11/2022 |
-|:--------|
-|EXIBIÇÕES DE BUSCAS|
-|FILTROS DA BUSCA|
-|DEFINIÇÃO DE LAYOUTS|
-|EXECUÇÃO PLANO DE TESTE 02|
-|DESENVOLVIMENTO PLANO TESTES 03|
-
-
-Sprint 04 - 26/11/2022 - 07/12/2022 |
-|:--------|
-|CRIAÇÃO DA FUNCIONALIDADE DE CHAT|
-|CRIAÇÃO DA FUNCIONALIDADE DE AVALIAÇÃO|
-|DEFINIÇÃO DE LAYOUTS|
-|PERSISTÊNCIA DE DADOS NO BANCO|
-|EXECUÇÃO PLANO DE TESTES 03|
-|DESENVOLVIMENTO PLANO TESTE 04|
-|EXECUÇÃO PLANO TESTES 04|
-
-## Gestão de requisitos
-
-Semanalmente será reavaliado o backlog para possível redefinição de prioridades, ao final de cada Sprint será aplicado um plano de teste referente ao entregáveis de cada Sprint para avaliação da consistência da solução.
-
-Ao início de cada Sprint será realizado uma reunião de Planning definindo as atividades individuais e uma estimativa de tempo para realização de cada tarefa.
-
-A definição de sprints como exposto anteriormente terá como proposta o desenvolvimento dos seguintes requisitos em ordem cronológica.
-
-- Sprint 1- RF-01 e RF-13 - CRUD de cadastro (Criação, edição e exclusão)
-- Sprint 2- RF-02, RF-03, RF-04, RF-05, RF-06 e RF-12- CRUD completo locais de hospedagem.
-- Sprint 3- RF-07, RF-08 e RF-09 - Exibição de informações e criação dos filtros.
-- Sprint 4- RF-10 e RF-11 – Montagem das funcionalidades de mensagem e avaliação.
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -154,17 +95,4 @@ As ferramentas empregadas no projeto são:
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
-### Cronograma de pessoal
 
-O cronograma de atividades individuais ou em equipes menores será definido no início de cada sprint através de micro tarefas para realização das entregas.
-
-No momento apenas as atividades do pré-projeto foram definidas e as demais atividades serão complementadas na tabela no decorrer do projeto
-
-![img](img/cronograma_pessoal.png)
-
-### Cronograma de custos
-
-O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$27.000,00 como custo total do projeto.
-Referente aos custos com máquinas, softwares e hospedagem, o grupo optou por em um primeiro momento utilizar recursos gratuitos devido a ser um primeiro contato com a criação de aplicativos. Posteriormente será avaliada a realização de um MVP para possível refatoração e hospedagem paga de acordo com o desenrolar do projeto.
-
-![img](img/cronograma_custos.png)
