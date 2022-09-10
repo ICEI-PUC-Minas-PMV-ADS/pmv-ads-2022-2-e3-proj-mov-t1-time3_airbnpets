@@ -119,23 +119,22 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Como exposto na introdução e justificativa esse projeto possui uma ideia de inovação. A criação de um aplicação que não está disponivél no mercado é um desafio como primeiro projeto do grupo deste tipo, portanto foram definidos processos lineares de forma que o projeto se encaixe a cada sprint gerando produtos que ao final darão vida a uma aplicação.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Semanalmente será reavaliado o backlog para possível redefinição de prioridades, ao final de cada Sprint será aplicado um plano de teste referente ao entregáveis de cada Sprint para avaliação da consistência da solução.
 
-### Processo 1 – NOME DO PROCESSO
+Ao início de cada Sprint será realizado uma reunião de Planning definindo as atividades individuais e uma estimativa de tempo para realização de cada tarefa.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+A definição de sprints como exposto anteriormente terá como proposta o desenvolvimento dos seguintes requisitos em ordem cronológica.
 
-![Processo 1](img/02-bpmn-proc1.png)
+Sprint 1- RF-01 e RF-13 - CRUD de cadastro (Criação, edição e exclusão)
+Sprint 2- RF-02, RF-03, RF-04, RF-05, RF-06 e RF-12- CRUD completo locais de hospedagem.
+Sprint 3- RF-07, RF-08 e RF-09 - Exibição de informações e criação dos filtros.
+Sprint 4- RF-10 e RF-11 – Montagem das funcionalidades de mensagem e avaliação.
 
-### Processo 2 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
@@ -207,40 +206,36 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+![image](https://user-images.githubusercontent.com/91069587/189491132-edb5df49-d7d8-4b40-ac86-89f7a1dc50d9.png)
 
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: Code Reviews, Overviews, Plannings com Poker Planning e Sprint Reviews.
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![image](https://user-images.githubusercontent.com/91069587/189491220-47d8594c-698d-444b-84f0-4aabf9c68c95.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O cronograma de atividades individuais ou em equipes menores será definido no início de cada sprint através de micro tarefas para realização das entregas.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+No momento apenas as atividades do pré-projeto foram definidas e as demais atividades serão complementadas na tabela no decorrer do projeto.
+
+![image](https://user-images.githubusercontent.com/91069587/189491254-5d2a07a5-dfa9-415e-9623-69f067b47a14.png)
+
+
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$27.000,00 como custo total do projeto.
 
-![Orçamento](img/02-orcamento.png)
+Referente aos custos com máquinas, softwares e hospedagem, o grupo optou por em um primeiro momento utilizar recursos gratuitos devido a ser um primeiro contato com a criação de aplicativos. Posteriormente será avaliada a realização de um MVP para possível refatoração e hospedagem paga de acordo com o desenrolar do projeto.
+
+![image](https://user-images.githubusercontent.com/91069587/189490990-908e0392-1c58-4dfa-a0fd-9cd693237912.png)
+
