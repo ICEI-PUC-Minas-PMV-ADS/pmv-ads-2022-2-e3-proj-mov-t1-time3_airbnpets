@@ -14,8 +14,9 @@ Solução em formato de aplicativo para a plataforma android que tem como objeti
 * Bárbara Augusta
 * Bruna Carline
 * Henrique Augusto
+* Luiz Henrique
 * Raphael Latini
-* ○	Raquel Fernandes
+* Raquel Fernandes
 
 ## Orientador
 
