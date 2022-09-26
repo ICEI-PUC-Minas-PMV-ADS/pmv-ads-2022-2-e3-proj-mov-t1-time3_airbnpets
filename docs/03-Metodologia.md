@@ -60,6 +60,8 @@ A equipe está organizada da seguinte maneira:
 
 -	Henrique Augusto
 
+-Luiz Henrique
+
 - Raquel Fernandes
 
 ####	Equipe de Design
