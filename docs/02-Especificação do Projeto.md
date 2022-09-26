@@ -132,7 +132,7 @@ A definição de sprints como exposto anteriormente terá como proposta o desenv
 Sprint 1- RF-01 e RF-13 - CRUD de cadastro (Criação, edição e exclusão)
 Sprint 2- RF-02, RF-03, RF-04, RF-05, RF-06 e RF-12- CRUD completo locais de hospedagem.
 Sprint 3- RF-07, RF-08 e RF-09 - Exibição de informações e criação dos filtros.
-Sprint 4- RF-10 e RF-11 – Montagem das funcionalidades de mensagem e avaliação.
+Sprint 4- RF-10 , RF-11 e RF-14 – Montagem das funcionalidades de mensagem e avaliação.
 
 
 
@@ -168,6 +168,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-011| O aplicativo deve permitir que usuários postem avaliações sobre as hospedagens utilizadas.  | ALTA |
 |RF-012| O aplicativo deve permitir a todos usuários a possibilidade de troca de senha.   | ALTA |
 |RF-013| O aplicativo deve possuir conectividade com redes sociais.   | BAIXA |
+|RF-014| O aplicativo deve permitir ao usuário favoritar locais.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
