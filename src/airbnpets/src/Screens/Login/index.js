@@ -1,9 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
-import Input from "../../components/input"
+import Input from "../../components/input/input"
 
 export default function Login() {
+
+  const navigation = useNavigation();
  
   return (
     <View style={styles.container}>
@@ -12,7 +15,7 @@ export default function Login() {
       <Input />
       <Input />
 
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate("Cadastro")}>
         <Text style={styles.buttonText}>ENTRAR</Text>
       </TouchableOpacity>
 

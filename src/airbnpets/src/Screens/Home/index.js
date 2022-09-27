@@ -1,15 +1,57 @@
 import React from "react";
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, StyleSheet, ScrollView } from "react-native";
 
 import Header from "../../components/Header";
+import SectionTitle from "../../components/SectionTitle";
+import Section from "../../components/Section";
+import SmallSection from "../../components/SmallSection";
+import Search from "../../components/Search";
 
 export default function Home() {
   return (
     <View style={styles.container}>
-        <Header/>
-      <View style={{ flex: 1, justifyContent: "center" }}>
-        <Text style={styles.testeExample}>Screen Home do App</Text>
-      </View>
+      <ScrollView showsVerticalScrollIndicator={false}>
+
+        <Header />
+
+        <Search placeholder="Buscar por nome ou local..."/>
+
+        {/* Imagens apenas de Placeholder */}
+
+        <SectionTitle title={"Hotéis Novos"} />
+
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ paddingStart: 10 }}>
+          <Section cover={require("../../assets/hotel.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/IMG-20210507-WA0192-2-1.jpg.png")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/creches-para-caes-de-pequeno-porte.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/hotel-caes.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/csm_Cabralia_1_f6bdccba89.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/img-20191219-wa0034_198451576792561.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+        </ScrollView>
+
+        <SectionTitle title={"Sugestões para você"} />
+
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ paddingStart: 10 }}>
+          <SmallSection cover={require("../../assets/hotel.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <SmallSection cover={require("../../assets/IMG-20210507-WA0192-2-1.jpg.png")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <SmallSection cover={require("../../assets/creches-para-caes-de-pequeno-porte.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <SmallSection cover={require("../../assets/hotel-caes.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <SmallSection cover={require("../../assets/csm_Cabralia_1_f6bdccba89.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <SmallSection cover={require("../../assets/img-20191219-wa0034_198451576792561.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+        </ScrollView>
+
+        <SectionTitle title={"Bem avaliados"} />
+
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ paddingStart: 10 }}>
+          <Section cover={require("../../assets/hotel.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/IMG-20210507-WA0192-2-1.jpg.png")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/creches-para-caes-de-pequeno-porte.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/hotel-caes.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/csm_Cabralia_1_f6bdccba89.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+          <Section cover={require("../../assets/img-20191219-wa0034_198451576792561.jpg")} nameHotel="Nome do Hotel" localHotel="Belo Horizonte" />
+        </ScrollView>
+
+      </ScrollView>
     </View>
   );
 }
@@ -17,19 +59,27 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#F8F8F8",
     paddingTop: 24,
   },
-  buttonRota: {
-    backgroundColor: "#ccc",
-    padding: 20,
-    marginTop: 20,
+  containerSearch: {
+    padding: 10,
+    paddingStart: 20,
+    paddingEnd: 20,
+    position: "relative"
   },
-  testeExample: {
-    textAlign: "center",
-    fontSize: 40,
-    marginEnd: 50,
-    marginStart: 50,
-    color: "#555555",
+  search: {
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 10,
+    paddingStart: 50,
+    fontSize: 15,
+    elevation: 5
   },
+  iconSearch: {
+    position: "absolute",
+    top: "50%",
+    marginStart: 35,
+    zIndex: 2
+  }
 });

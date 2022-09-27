@@ -2,6 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Welcome from "../Screens/Welcome";
 import Login from "../Screens/Login";
 import Home from "../Screens/Home";
+import Cadastro from "../Screens/Cadastre";
 
 import ShowBottomTabs from "./TabNavigation";
 
@@ -15,12 +16,13 @@ export default (props) => {
         component={Welcome}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Login" component={Login} />
       <Stack.Screen
         name="Home"
         component={ShowBottomTabs}
         options={{ headerShown: false }}
       />
+      <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen name="Cadastro" component={Cadastro}/>
     </Stack.Navigator>
   );
 };

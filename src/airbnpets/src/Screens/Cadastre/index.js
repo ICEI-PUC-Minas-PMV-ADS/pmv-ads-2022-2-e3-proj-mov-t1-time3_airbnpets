@@ -1,7 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet,FlexStyle} from 'react-native';
 import {Button, TextInput, IconButton} from 'react-native-paper';
-import { mdiArrowLeft } from '@mdi/js';
 
 const Cadastro = () => {
     const [text, setText, flexDirection, setflexDirection] = React.useState("");
@@ -23,7 +22,7 @@ const Cadastro = () => {
 
       <TextInput style={styles.sobrenome}
       label="Sobrenome"
-      autoComplete="namename-family"
+      autoComplete="name-family"
       value={text}
       onChangeText={text => setText(text)}/>
     </View>
@@ -65,7 +64,7 @@ const Cadastro = () => {
       keyboardtype="visible-password"
       autoComplete="password"
       secureTextEntry
-      right={<TextInput.Icon icon="eye" secureTextEntry="false"/>}/>
+      right={<TextInput.Icon icon="eye" secureTextEntry={false}/>}/>
 
       <Button style={styles.button} 
       size={20} 
@@ -83,7 +82,7 @@ const styles = StyleSheet.create({
         flex: 1,
         marginLeft: 20,
         marginRight: 3,
-        fontFamily: "Montserrat",
+        fontFamily: "Montserrat_400Regular",
         borderRadius: 15,
         overflow: 'hidden'
     },
@@ -91,14 +90,14 @@ const styles = StyleSheet.create({
         flex: 1,
         marginLeft: 3,
         marginRight: 20,
-        fontFamily: "Montserrat",
+        fontFamily: "Montserrat_400Regular",
         borderRadius: 15
     },
     input: {
         marginTop: 8,
         marginLeft: 20,
         marginRight: 20,
-        fontFamily: "Montserrat",
+        fontFamily: "Montserrat_400Regular",
         borderRadius: 15,
     },
     button: {
@@ -106,7 +105,7 @@ const styles = StyleSheet.create({
       marginLeft: 20,
       marginRight: 20,
       backgroundColor: "#45B5C4",
-      fontFamily: "Montserrat",
+      fontFamily: "Montserrat_400Regular",
       borderRadius: 13,
     },
     row: {

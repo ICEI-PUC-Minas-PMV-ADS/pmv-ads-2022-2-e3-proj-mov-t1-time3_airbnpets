@@ -5,7 +5,7 @@ export default function Welcome({navigation}) {
  return (
    <View style={styles.container}>
     <Text>Tela Welcome</Text>
-    <TouchableOpacity style={styles.buttonRota} onPress={()=> navigation.navigate("Login")}>
+    <TouchableOpacity style={styles.buttonRota} onPress={()=> navigation.navigate("Home")}>
         <Text style={{color: "#fff"}}>Teste navegação - Ir para login</Text>
     </TouchableOpacity>
    </View>
