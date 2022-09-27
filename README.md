@@ -6,6 +6,7 @@ Eixo 3 - Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Ne
 
 Turma 01 - 2022/2
 
+
 Solução em formato de aplicativo para a plataforma android que tem como objetivo auxiliar os donos de pet a encontrar o local ideal para hospedar o seu animal, bem como auxiliar os donos de espaço que hospedam animais na divulgação dos mesmos. 
 
 ## Integrantes
