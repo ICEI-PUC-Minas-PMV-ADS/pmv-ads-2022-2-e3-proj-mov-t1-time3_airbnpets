@@ -119,21 +119,43 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 ### Análise da Situação Atual
 
-Como exposto na introdução e justificativa esse projeto possui uma ideia de inovação. A criação de um aplicação que não está disponivél no mercado é um desafio como primeiro projeto do grupo deste tipo, portanto foram definidos processos lineares de forma que o projeto se encaixe a cada sprint gerando produtos que ao final darão vida a uma aplicação.
-
+Como exposto na introdução e justificativa esse projeto possui uma ideia que visa conectar consumidores de serviços de petcare e locais que possuem tratamento especializado em diversos animais e problemas de cada bichinho como indivíduo. Aplicativos semelhantes existem, porém esse projeto contem dois pontos de inovação. O primeiro ponto é que pessoas poderão oferecer locais próprios para receber animais de modo mais atencioso e dedicado. O segundo ponto é a reunião de diversos locais em uma plataforma única com fácil acesso ao usuário que busca o serviço.
 ### Descrição Geral da Proposta
 
-Semanalmente será reavaliado o backlog para possível redefinição de prioridades, ao final de cada Sprint será aplicado um plano de teste referente ao entregáveis de cada Sprint para avaliação da consistência da solução.
+O projeto visa criar uma plataforma onde usuários cadastrados consigam disponibilizar locais para hospedagem de pets. Proporcionando a usuário que não possuam cadastros realizar buscas através de especificidades das hospedagens e endereço. Além disto o usuário que possua cadastro poderá utilizar um chat para entrar em contato com o local de hospedagem, avaliar locais utilizados e favoritar locais.  Uma futura melhoria vista como a principal pelo grupo é a de monetização do aplicativo, através de cobranças para cadastro de hospedagens pelos usuários.
 
-Ao início de cada Sprint será realizado uma reunião de Planning definindo as atividades individuais e uma estimativa de tempo para realização de cada tarefa.
 
-A definição de sprints como exposto anteriormente terá como proposta o desenvolvimento dos seguintes requisitos em ordem cronológica.
+### Processo 1 – CADASTRO DE USUÁRIO
 
-Sprint 1- RF-01 e RF-13 - CRUD de cadastro (Criação, edição e exclusão)
-Sprint 2- RF-02, RF-03, RF-04, RF-05, RF-06 e RF-12- CRUD completo locais de hospedagem.
-Sprint 3- RF-07, RF-08 e RF-09 - Exibição de informações e criação dos filtros.
-Sprint 4- RF-10 , RF-11 e RF-14 – Montagem das funcionalidades de mensagem e avaliação.
+Processo de cadastro de usuário no aplicativo. 
 
+![processo 01](https://user-images.githubusercontent.com/91069587/192883818-4b486e08-021a-44e9-9040-2edc8f55bf2f.jpg)
+
+
+### Processo 2 – CADASTRO DE HOSPEDAGEM
+
+Processo de cadastro de hospedagem.
+
+![processo 02](https://user-images.githubusercontent.com/91069587/192883992-0fff85ab-eee3-4369-9408-766fb3a173f5.jpg)
+
+
+Possível melhoria em futuro MVP para monetização da aplicação.
+
+![processo 02-mvp](https://user-images.githubusercontent.com/91069587/192884027-1a254de5-6745-41a0-bea4-b0942e206af6.jpg)
+
+
+### Processo 3 – BUSCA POR HOSPEDAGEM
+
+Processo de busca por locais com filtros aplicados pelo usuário.
+
+![processo 03](https://user-images.githubusercontent.com/91069587/192884146-1e77eda7-977f-42ad-93fe-aca0b7acebb2.jpg)
+
+
+### Processo 4 – CHAT COMUNICAÇÃO
+
+Processo de comunicação entre usuários (usuário que busca local x usuário que cadastrou local de interesse)
+
+![processo 04](https://user-images.githubusercontent.com/91069587/192884357-eb0ca05c-5551-428e-8b24-1333bc6222ca.jpg)
 
 
 ## Indicadores de Desempenho
