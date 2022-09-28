@@ -229,12 +229,15 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-![image](https://user-images.githubusercontent.com/91069587/189491132-edb5df49-d7d8-4b40-ac86-89f7a1dc50d9.png)
+![MATRIZ](https://user-images.githubusercontent.com/91069587/192887525-8a7a9501-be0f-46a7-b467-29d1f63cfcdf.jpg)
 
 
 # Gerenciamento de Projeto
 
 O projeto será realizado em sprints de tempo variável de acordo com as tarefas definidas no backlog. No qual será reavaliado sempre ao final de uma sprint. Para um gerenciamento mais efetivo das atividades, bem como propondo melhorias na comunicação e colaboração, foi definido que às segundas-feiras às 21:00 serão celebradas diversas reuniões de acordo com a necessidade do momento do grupo. Nessas reuniões serão realizados ritos Scrum como: Code Reviews, Overviews, Plannings com Poker Planning e Sprint Reviews.
+
+![planejamento](https://user-images.githubusercontent.com/91069587/192894747-0defc760-c31e-4eb5-9086-b6baebeffd07.jpg)
+
 
 ## Gerenciamento de Tempo
 
@@ -256,9 +259,10 @@ No momento apenas as atividades do pré-projeto foram definidas e as demais ativ
 
 ## Gestão de Orçamento
 
-O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$27.000,00 como custo total do projeto.
+O cronograma de custos foi estipulado utilizando o salário mensal médio de um estagiário na área de tecnologia como R$1.500,00 por 30 horas semanais . Levando em conta o período de desenvolvimento de 3 meses do projeto e que todos os integrantes do grupo irão realizar tarefas de diversas naturezas chegamos ao valor de R$4.500,00 por integrante durante todo o decorrer do projeto. Somando a estimativa de valor de todos integrantes obtemos um total de R$31.500,00 como custo total do projeto.
 
 Referente aos custos com máquinas, softwares e hospedagem, o grupo optou por em um primeiro momento utilizar recursos gratuitos devido a ser um primeiro contato com a criação de aplicativos. Posteriormente será avaliada a realização de um MVP para possível refatoração e hospedagem paga de acordo com o desenrolar do projeto.
 
-![image](https://user-images.githubusercontent.com/91069587/189490990-908e0392-1c58-4dfa-a0fd-9cd693237912.png)
+![CUSTOS](https://user-images.githubusercontent.com/91069587/192895166-37142ab2-97d4-40c1-a152-66d5827c777b.jpg)
+
 
