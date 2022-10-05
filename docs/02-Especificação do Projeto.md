@@ -241,20 +241,18 @@ O projeto será realizado em sprints de tempo variável de acordo com as tarefas
 
 ## Gerenciamento de Tempo
 
-Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo.
+Inicialmente as sprints foram definidas de acordo com a natureza das tarefas em ordem lógica para um desenvolvimento linear no projeto. As datas contidas foram atribuídas através das datas de entrega propostas pela PUC, porém serão alteradas de acordo com as plannings realizadas pelo grupo. As atividades foram distribuidas em dois grupo e estão sendo realizadas de acordo com a necessidade de cada entrega proposta pela PUC.
 
-![image](https://user-images.githubusercontent.com/91069587/189491220-47d8594c-698d-444b-84f0-4aabf9c68c95.png)
+![tempo](https://user-images.githubusercontent.com/91069587/194095383-34ac986d-c68f-43b5-875d-757170631c20.jpg)
+
 
 
 
 ## Gerenciamento de Equipe
 
-O cronograma de atividades individuais ou em equipes menores será definido no início de cada sprint através de micro tarefas para realização das entregas.
+Em um primeiro momento onde o grupo ainda está se adaptando as atividades e desenvolvendo conehcimentos específicos para as tarefas foi definido que todas as atividades definidas pelo grupo seriam realizadas de forma conjunta.
 
-No momento apenas as atividades do pré-projeto foram definidas e as demais atividades serão complementadas na tabela no decorrer do projeto.
-
-![image](https://user-images.githubusercontent.com/91069587/189491254-5d2a07a5-dfa9-415e-9623-69f067b47a14.png)
-
+O cronograma individual será necessário após a planning da data 10/10/2022 onde a criação de telas e funcionalidades será dividida. Enquanto isto as atividades foram realizadas em grupo como descrito no gerenciameno do tempo para um melhor entendimento do projeto como um todo e tranquilidade para que as tarefas individuais sejam realizadas com o alinhamento e entendimento criado durante a etapa realizada em conjunto.
 
 
 ## Gestão de Orçamento
