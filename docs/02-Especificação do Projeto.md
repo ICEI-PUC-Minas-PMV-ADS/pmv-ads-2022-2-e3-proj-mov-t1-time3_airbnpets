@@ -229,6 +229,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
+As atividades a serem realizadas foram priorizadas de forma que o desenvolvimento dos conhecimentos do grupo ocorra de maneira linear, proporcionando um melhor alinhamento do grupo, para as etapas posteriores que serão realizadas individualmente.
+
 ![MATRIZ](https://user-images.githubusercontent.com/91069587/192887525-8a7a9501-be0f-46a7-b467-29d1f63cfcdf.jpg)
 
 
