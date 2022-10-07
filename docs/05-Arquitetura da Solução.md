@@ -17,7 +17,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+![image](![Fluxogramas (1)](https://user-images.githubusercontent.com/73501565/194575298-418b6425-452d-41a8-b670-3d0f2659e6e4.jpeg)
+
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
