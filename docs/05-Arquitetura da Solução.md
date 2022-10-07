@@ -27,6 +27,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+![Diagrama em branco (1)](https://user-images.githubusercontent.com/73501565/194575581-6eca1446-5e89-4444-86e4-dacefea8cd5e.jpeg)
+
  
 As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
 
