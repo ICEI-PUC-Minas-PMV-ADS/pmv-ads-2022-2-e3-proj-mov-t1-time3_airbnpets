@@ -1,5 +1,7 @@
 import React from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+
 
 import Header from "../../components/Header";
 import SectionTitle from "../../components/SectionTitle";

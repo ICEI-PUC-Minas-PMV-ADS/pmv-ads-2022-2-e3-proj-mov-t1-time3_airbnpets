@@ -1,9 +1,48 @@
-import React from 'react';
-import {View, Text, StyleSheet,FlexStyle} from 'react-native';
+import React,{useState} from 'react';
+import {View,Text, StyleSheet,Alert} from 'react-native';
 import {Button, TextInput, IconButton} from 'react-native-paper';
+import { useNavigation } from "@react-navigation/native";
+
+import{register} from '../../services/auth.services';
+
 
 const Cadastro = () => {
-    const [text, setText, flexDirection, setflexDirection] = React.useState("");
+
+    const navigation= useNavigation();
+
+    const [nome, setNome]=useState('Raphael');
+    const [sobrenome,setSobrenome]=useState('Latini');
+    const [email,setEmail]=useState('raphael@hotmal.com');
+    const [cpf,setCpf]=useState('0252523652');
+    const [telefone,setTelefone]=useState('34562536');
+    const [data,setData]=useState('01011985');
+    const [senha,setSenha]=useState('123456');
+
+    const acionarRegister=()=>{
+      register({
+        nome:nome,
+        sobrenome:sobrenome,
+        email:email,
+        cpf:cpf,
+        telefone:telefone,
+        data:data,
+        senha:senha
+
+      }).then(res =>{
+        console.log(res)
+        
+      if(res){
+        Alert.alert('Usuário Cadastrado com sucesso!',[
+          { text: "OK", onPress: () => navigation.goBack() }
+        ]);
+
+      }else{
+
+         Alert.alert( 'Usuário não cadastrado! Tente novamente ');
+      }
+      })
+
+    }
 
   return(
 
@@ -17,59 +56,53 @@ const Cadastro = () => {
       <TextInput style={styles.nome}
       label="Nome"
       autoComplete="name"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={nome}
+      onChangeText={text => setNome(text)}/>
 
       <TextInput style={styles.sobrenome}
       label="Sobrenome"
       autoComplete="name-family"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={sobrenome}
+      onChangeText={text => setSobrenome(text)}/>
     </View>
       <TextInput style={styles.input}
       label="Email"
       keyboardtype="email-address"
       autoComplete="email"
       selectionColor="#EBEBEB"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={email}
+      onChangeText={text => setEmail(text)}/>
 
       <TextInput style={styles.input}
       label="CPF"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={cpf}
+      onChangeText={text => setCpf(text)}/>
 
       <TextInput style={styles.input}
       label="Telefone"
       keyboardtype="numeric"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={telefone}
+      onChangeText={text => setTelefone(text)}/>
 
       <TextInput style={styles.input}
       label="Data de nascimento"
-      value={text}
-      onChangeText={text => setText(text)}/>
+      value={data}
+      onChangeText={text => setData(text)}/>
 
       <TextInput style={styles.input}
       label="Senha"
-      autoCorrect="false"
-      keyboardtype="visible-password"
-      autoComplete="password"
+      value={senha}
       secureTextEntry
+      keyboardtype="visible-password"
+      onChangeText={(text)=>setSenha(text)}
       right={<TextInput.Icon icon="eye" />}/>
 
-      <TextInput style={styles.input}
-      label="Confirme a senha"
-      autoCorrect="false"
-      keyboardtype="visible-password"
-      autoComplete="password"
-      secureTextEntry
-      right={<TextInput.Icon icon="eye" secureTextEntry={false}/>}/>
+      
 
       <Button style={styles.button} 
       size={20} 
       mode="contained" 
-      onPress={() => console.log('Pressed')}> CADASTRAR </Button>
+      onPress={acionarRegister}> CADASTRAR </Button>
     
     </View>
     

@@ -23,6 +23,8 @@ export default (props) => {
       />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Cadastro" component={Cadastro}/>
+      <Stack.Screen name="Pesquisa" component={Home}/>
+
     </Stack.Navigator>
   );
 };

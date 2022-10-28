@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import Header from '../../components/Header';
 
 import Input from "../../components/input/input"
 
@@ -9,13 +10,15 @@ export default function Login() {
   const navigation = useNavigation();
  
   return (
+   
     <View style={styles.container}>
+      <Header />
       <Text style={styles.titleText}>Bem-vindo!</Text>
       <Text style={styles.baseText}>Faça login para acessar o app</Text>
       <Input />
       <Input />
 
-      <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate("Cadastro")}>
+      <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate("Pesquisa")}>
         <Text style={styles.buttonText}>ENTRAR</Text>
       </TouchableOpacity>
 
@@ -25,9 +28,9 @@ export default function Login() {
           Ainda não é cadastrado em nosso app?
         </Text>
 
-        <TouchableOpacity >
-          <Text style={styles.linkText}>Cadastre-se</Text>
-        </TouchableOpacity>
+       <TouchableOpacity style={styles.button} onPress={()=> navigation.navigate("Cadastro")}>
+        <Text style={styles.buttonText}>CADASTRAR</Text>
+      </TouchableOpacity>
       
     </View>
   );

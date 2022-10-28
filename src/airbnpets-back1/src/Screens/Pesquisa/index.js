@@ -1,10 +1,14 @@
 import * as React from "react";
 import { View, Text, Image, StyleSheet, ScrollView } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+
 import Header from "../../components/Header";
 import Search from "../../components/Search";
 
 
-export default function Login() {
+export default function Pesquisa() {
+
+  const navigation = useNavigation();
 
   return (
     <View style={styles.container}>
