@@ -3,6 +3,7 @@ import Welcome from "../Screens/Welcome";
 import Login from "../Screens/Login";
 import Home from "../Screens/Home";
 import Cadastro from "../Screens/Cadastre";
+import CadastroHotel from "../Screens/CadastroHotel";
 
 import ShowBottomTabs from "./TabNavigation";
 
@@ -10,7 +11,7 @@ const Stack = createNativeStackNavigator();
 
 export default (props) => {
   return (
-    <Stack.Navigator initialRouteName="Welcome">
+    <Stack.Navigator initialRouteName="CadastroHotel">
       <Stack.Screen
         name="Welcome"
         component={Welcome}
@@ -23,6 +24,7 @@ export default (props) => {
       />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Cadastro" component={Cadastro}/>
+      <Stack.Screen name="CadastroHotel" component={CadastroHotel} options={{title: ''}}/>
     </Stack.Navigator>
   );
 };
@@ -43,7 +45,7 @@ export function LoginNavigation() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="login"
+        name="Login"
         component={Login}
         options={{ headerShown: false }}
       />
@@ -51,4 +53,10 @@ export function LoginNavigation() {
   );
 }
 
-// Obs: Essas 2 telas (Welcome e Login) é só para testar a navegação. Após decidirmos quem vai ser responsável por cada tela melhoramos as que existem e adicionamos as novas.
+export function CadastroHotelNavigation(){
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="CadastroHotel" component={CadastroHotel}></Stack.Screen>
+    </Stack.Navigator>
+  )
+}

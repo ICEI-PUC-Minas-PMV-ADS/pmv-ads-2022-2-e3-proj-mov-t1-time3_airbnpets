@@ -1,30 +1,34 @@
 import React from "react";
 import { View, StyleSheet, TextInput} from "react-native";
 
-const Input = () => {
+const Input = (props) => {
   return (
-    <View style={styles.containe}>
-      <TextInput 
-        style={styles.input} 
+    <View style={styles.container}>
+      <TextInput
+        {...props}
+        autoComplete={props.type}
+        value={props.value}
+        onChangeText={props.onChangeText}
+        style={[styles.input, {height: props.height || 50}]}
+        placeholder={props.placeholder}
       />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  containe: {
+  container: {
     flexDirection: 'row',
     marginTop: 20
   },
   input: {
-    height: 50,
     flex: 1,
     backgroundColor: '#EBEBEB',
     paddingLeft: 10,
     marginHorizontal: 20,
-    // marginLeft: 35,
     borderRadius: 6,
     fontSize: 18,
+    fontWeight: '600'
   },
 });
 
