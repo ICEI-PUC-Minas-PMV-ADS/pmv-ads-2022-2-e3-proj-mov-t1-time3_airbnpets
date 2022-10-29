@@ -13,7 +13,7 @@ const navigation = useNavigation();
    
     <View style={styles.container}>
       <Header />
-      <Image style={styles.image} source={require('../../assets/usuário.jpg')} />
+      <Image style={styles.image} source={require('../../assets/usuario.jpg')} />
       <Text style={styles.titleText}>Bem-vindo, User!</Text>
       <Text style={styles.baseText}>user@gmail.com</Text>
 
@@ -28,7 +28,7 @@ const navigation = useNavigation();
       </TouchableOpacity>
 
        <TouchableOpacity style={styles.buttonsair} onPress={()=> navigation.navigate("Welcome")}>
-        <Text style={styles.buttonText}>SAIR</Text>
+        <Text style={styles.buttonsairText}>SAIR</Text>
       </TouchableOpacity>
       
     </View>
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   },
   titleText: {
     fontFamily: "sans-serif",
-    fontSize: 40,
+    fontSize: 30,
     fontWeight: "bold",
     marginTop: 35,
     // marginLeft: 30,
@@ -79,16 +79,21 @@ const styles = StyleSheet.create({
     borderRadius: 6,
   },
     image: {
-    height: 150,
-    width: 150,
+    height: 100,
+    width: 100,
     borderRadius: 20,
   },
 
-  buttonText: {
+  buttonsairText: {
     margin: 5,
     fontWeight: 'bold',
-    color: '#000000',
+    color: '#fff',
   }, 
+    buttonText: {
+    margin: 5,
+    fontWeight: 'bold',
+    color: '#',
+  },
   linkText: {
     fontWeight: 'bold',
     fontSize: 20,
