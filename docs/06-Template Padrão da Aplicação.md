@@ -1,12 +1,47 @@
-# Template Padrão da Aplicação
+![identidade](https://user-images.githubusercontent.com/91069587/198838530-722d72d7-1e56-417f-b080-ec283a34efc5.jpg)
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "baseline",
+    justifyContent: "flex-start",
+    alignItems: 'center'
+    
+  },
+  titleText: {
+    fontFamily: "sans-serif",
+    fontSize: 40,
+    fontWeight: "bold",
+    marginTop: 35,
+    // marginLeft: 30,
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+  },
+  baseText: {
+    flexDirection: 'row',
+    fontFamily: "sans-serif",
+    fontSize: 20,
+    marginTop: 16,
+    // marginLeft: 30,
+    marginBottom: 40
+  },
+  button: {
+    marginTop: 20,
+    // marginLeft: 20,
+    alignItems: 'center',
+    width: 350,
+    padding: 10,
+    backgroundColor: '#45B5C4',
+    borderRadius: 6,
+  },
+  buttonText: {
+    margin: 5,
+    fontWeight: 'bold',
+    color: '#ffff',
+  }, 
+  linkText: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: '#45B5C4',
+  }
+});
