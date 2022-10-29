@@ -3,6 +3,7 @@ import Welcome from "../Screens/Welcome";
 import Login from "../Screens/Login";
 import Home from "../Screens/Home";
 import Cadastro from "../Screens/Cadastre";
+import User from "../Screens/User";
 
 import ShowBottomTabs from "./TabNavigation";
 
