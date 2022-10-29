@@ -119,9 +119,7 @@ const styles = StyleSheet.create({
     borderRadius: 15,
   },
   button: {
-    marginTop: 20,
-    marginLeft: 20,
-    marginRight: 20,
+    margin: 20,
     backgroundColor: "#45B5C4",
     fontFamily: "Montserrat_400Regular",
     borderRadius: 13,

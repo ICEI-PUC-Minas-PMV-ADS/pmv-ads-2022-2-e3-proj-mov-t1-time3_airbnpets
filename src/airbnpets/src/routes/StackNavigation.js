@@ -24,7 +24,7 @@ export default (props) => {
       />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Cadastro" component={Cadastro}/>
-      <Stack.Screen name="CadastroHotel" component={CadastroHotel}/>
+      <Stack.Screen name="CadastroHotel" component={CadastroHotel} options={{title: ''}}/>
     </Stack.Navigator>
   );
 };
