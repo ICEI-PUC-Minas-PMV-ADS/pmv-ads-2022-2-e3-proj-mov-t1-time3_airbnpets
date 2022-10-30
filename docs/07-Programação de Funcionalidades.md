@@ -1,4 +1,5 @@
 Link do Vídeo proposto na etapa 3,mesmo que o vídeo seja para falar da participação individual é importante ressaltar que todos tiveram participações em tudo até o momento. 
+
 Vídeo Raphael Latini:
 https://youtu.be/Ly0cJY9AI00
 
