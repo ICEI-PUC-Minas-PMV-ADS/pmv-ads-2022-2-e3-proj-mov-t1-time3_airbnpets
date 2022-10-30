@@ -9,7 +9,8 @@ https://youtu.be/PfcVxChA3Rw
 Vídeo Raquel Fernandes:
 https://youtu.be/sDq80waMSq4
 
-
+Vídeo Bruna Caroline:
+https://youtu.be/Bp1FFcL8J7U
 
 
 
@@ -20,6 +21,8 @@ Henrique: Implantação da tela de usuário, onde o usuário terá um botão par
 Montagem de planos de testes. Vídeo talvez não consiga subir a tempo.
 
 Arthur: Implantação da Tela Home e da Tela Cadastro de Hotel, onde o usuário poderá ver os hotéis disponíveis, detalhes dos hotéis, efetuar busca e efetuar cadastro de Hotél. Responsável pela criação da navegação, criação de alguns componentes a serem reutilizados em todo o app e Wireframes.
+
+Bruna:  Implementação da Tela de Login, Tela de edição de cadastro do usuário e tela de pesquisa onde o usuário poderá pesquisar hotéis por nome ou local. 
 
 > **Links Úteis**:
 >
