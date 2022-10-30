@@ -2,6 +2,9 @@ Link do Vídeo proposto na etapa 3,mesmo que o vídeo seja para falar da partici
 Vídeo Raphael Latini:
 https://youtu.be/Ly0cJY9AI00
 
+Vídeo Arthur Rocha:
+https://youtu.be/PfcVxChA3Rw
+
 
 
 
@@ -11,6 +14,8 @@ https://youtu.be/Ly0cJY9AI00
 
 Henrique: Implantação da tela de usuário, onde o usuário terá um botão para edição de dados, Cadastro de hotel e Sair (desloga o usuário).
 Montagem de planos de testes. Vídeo talvez não consiga subir a tempo.
+
+Arthur: Implantação da Tela Home e da Tela Cadastro de Hotel, onde o usuário poderá ver os hotéis disponíveis, detalhes dos hotéis, efetuar busca e efetuar cadastro de Hotél. Responsável pela criação da navegação, criação de alguns componentes a serem reutilizados em todo o app e Wireframes.
 
 > **Links Úteis**:
 >
