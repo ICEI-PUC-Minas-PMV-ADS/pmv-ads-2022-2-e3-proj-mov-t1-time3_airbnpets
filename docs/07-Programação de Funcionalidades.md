@@ -6,6 +6,9 @@ https://youtu.be/Ly0cJY9AI00
 Vídeo Arthur Rocha:
 https://youtu.be/PfcVxChA3Rw
 
+Vídeo Raquel Fernandes:
+https://youtu.be/sDq80waMSq4
+
 
 
 
