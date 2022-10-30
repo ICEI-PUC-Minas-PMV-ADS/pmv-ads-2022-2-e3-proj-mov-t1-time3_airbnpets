@@ -12,6 +12,9 @@ https://youtu.be/sDq80waMSq4
 Vídeo Bruna Caroline:
 https://youtu.be/Bp1FFcL8J7U
 
+Vídeo Bárbara Augusta:
+https://www.youtube.com/watch?v=3WaGnW9dIyw
+
 
 
 
