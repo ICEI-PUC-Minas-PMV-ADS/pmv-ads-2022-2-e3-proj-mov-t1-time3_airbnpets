@@ -5,7 +5,12 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+<<<<<<< HEAD
     "ios": "expo start --ios"
+=======
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+>>>>>>> origin/welcome
   },
   "dependencies": {
     "@expo-google-fonts/montserrat": "^0.2.2",
