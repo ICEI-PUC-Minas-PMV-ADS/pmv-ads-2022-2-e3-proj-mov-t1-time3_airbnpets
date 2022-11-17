@@ -9,7 +9,7 @@ export default function Welcome({ navigation }) {
             <Header />
             <ImageBackground style={styles.image} source={require('../../../assets/hotel-pet.jpg')} />
             <Text>
-                <TouchableOpacity style={styles.buttonRota} onPress={() => navigation.navigate("Login")}>
+                <TouchableOpacity style={styles.buttonRota} onPress={() => navigation.navigate("Home")}>
                     <Text style={{ color: "black",fontSize:25 }}>Navegar </Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.buttonRota} onPress={() => navigation.navigate("Login")}>

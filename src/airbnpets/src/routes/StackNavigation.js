@@ -22,9 +22,8 @@ export default (props) => {
         component={ShowBottomTabs}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Cadastro" component={Cadastro}/>
-      <Stack.Screen name="CadastroHotel" component={CadastroHotel} options={{title: ''}}/>
+      <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
+      <Stack.Screen name="Cadastro" component={Cadastro} options={{headerShown: false}}/>
     </Stack.Navigator>
   );
 };
