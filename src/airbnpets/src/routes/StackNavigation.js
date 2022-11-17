@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator();
 
 export default (props) => {
   return (
-    <Stack.Navigator initialRouteName="CadastroHotel">
+    <Stack.Navigator initialRouteName="Welcome">
       <Stack.Screen
         name="Welcome"
         component={Welcome}

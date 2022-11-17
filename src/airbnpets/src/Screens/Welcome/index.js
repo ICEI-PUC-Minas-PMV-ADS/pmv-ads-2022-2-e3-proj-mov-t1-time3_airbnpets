@@ -1,19 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Image, ImageBackground } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
 import Header from '../../components/Header';
-
-<<<<<<< HEAD
-export default function Welcome({navigation}) {
- return (
-   <View style={styles.container}>
-    <Text>Tela Welcome</Text>
-    <TouchableOpacity style={styles.buttonRota} onPress={()=> navigation.navigate("Home")}>
-        <Text style={{color: "#fff"}}>Teste navegação - Ir para login</Text>
-    </TouchableOpacity>
-   </View>
-  );
-=======
-
 
 export default function Welcome({ navigation }) {
     return (
@@ -31,7 +18,6 @@ export default function Welcome({ navigation }) {
             </Text>
         </View>
     );
->>>>>>> origin/welcome
 }
 
 const styles = StyleSheet.create({
