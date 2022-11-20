@@ -1,47 +1,97 @@
-import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ImageBackground } from 'react-native';
-import Header from '../../components/Header';
+import React from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ImageBackground,
+} from "react-native";
+import Header from "../../components/Header";
 
 export default function Welcome({ navigation }) {
-    return (
-
-        <View style={styles.container}>
-            <Header />
-            <ImageBackground style={styles.image} source={require('../../../assets/hotel-pet.jpg')} />
-            <Text>
-                <TouchableOpacity style={styles.buttonRota} onPress={() => navigation.navigate("Home")}>
-                    <Text style={{ color: "black",fontSize:25 }}>Navegar </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.buttonRota} onPress={() => navigation.navigate("Login")}>
-                    <Text style={{ color: "black",fontSize:25 }}>Anunciar </Text>
-                </TouchableOpacity>
-            </Text>
-        </View>
-    );
+  return (
+    <View style={styles.container}>
+      <Header />
+      <ImageBackground
+        style={styles.image}
+        source={require("../../assets/imageWelcome.png")}
+      />
+      <View style={styles.containerButtons}>
+        <Text
+          style={{
+            color: "black",
+            fontSize: 22,
+            fontFamily: "Montserrat_500Medium",
+            textAlign: "center",
+            maxWidth: 300,
+          }}
+        >
+          Econtre hotéis para pets pertinho de você!
+        </Text>
+        <TouchableOpacity
+          style={styles.buttonLogin}
+          onPress={() => navigation.navigate("Login")}
+        >
+          <Text
+            style={{
+              color: "#45B5C4",
+              fontSize: 18,
+              fontFamily: "Montserrat_600SemiBold",
+            }}
+          >
+            LOGIN
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.buttonExperimentar}
+          onPress={() => navigation.navigate("Home")}
+        >
+          <Text
+            style={{
+              color: "#FFF",
+              fontSize: 18,
+              fontFamily: "Montserrat_600SemiBold",
+            }}
+          >
+            EXPERIMENTAR
+          </Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center"
-    },
-    buttonRota: {
-        fontSize:40,
-        backgroundColor: "#FFF",
-        padding: 20,
-
-
-        marginTop: 20
-    },
-    image: {
-
-        marginBottom: 30,
-        width: 400,
-        height: 400,
-        resizeMode: 'contain'
-
-
-    }
-})
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 15,
+  },
+  buttonLogin: {
+    fontSize: 40,
+    padding: 20,
+    marginTop: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  buttonExperimentar: {
+    fontSize: 40,
+    backgroundColor: "#45B5C4",
+    padding: 20,
+    marginTop: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+  },
+  image: {
+    width: 350,
+    height: 350,
+    resizeMode: "contain",
+    flex: 5,
+  },
+  containerButtons: {
+    flex: 3,
+  },
+});

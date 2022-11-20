@@ -4,6 +4,7 @@ import Login from "../Screens/Login";
 import Home from "../Screens/Home";
 import Cadastro from "../Screens/Cadastre";
 import CadastroHotel from "../Screens/CadastroHotel";
+import Details from "../Screens/Details";
 
 import ShowBottomTabs from "./TabNavigation";
 
@@ -24,6 +25,7 @@ export default (props) => {
       />
       <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
       <Stack.Screen name="Cadastro" component={Cadastro} options={{headerShown: false}}/>
+      <Stack.Screen name="Details" component={Details}/>
     </Stack.Navigator>
   );
 };

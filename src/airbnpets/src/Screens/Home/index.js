@@ -12,7 +12,7 @@ export default function Home() {
   const [hoteis, setHoteis] = useState([]);
 
   useEffect(() => {
-    db.collection("hoteis")
+    db.collection("hoteisNovos")
       .orderBy("data", "desc")
       .onSnapshot((snapshot) => {
         setHoteis(
@@ -45,7 +45,9 @@ export default function Home() {
               <Section
                 cover={{uri: hotel.info.image}}
                 nameHotel={hotel.info.name}
-                localHotel={hotel.info.address}
+                localHotel={hotel.info.city}
+                priceMin={hotel.info.priceMin}
+                priceMax={hotel.info.priceMax}
               />
             </ScrollView>
           );
