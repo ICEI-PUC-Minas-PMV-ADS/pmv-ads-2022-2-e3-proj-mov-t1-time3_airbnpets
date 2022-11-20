@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$eT.M/A1sw9S7XRwSE224yOMUtbz8hV2BfIArHh.JNE/BaNwlaIlbi",
+      "nome": "Raphael",
+      "sobrenome": "Latini",
+      "cpf": "0000000000",
+      "dataDeNascimento": "010101",
+      "id": 1
+    },
+    {
+      "email": "oliviera@mail.com",
+      "password": "$2a$10$g2q4YPEUNZ4JGu8c0XymxOpTMJjLjWbw9C8.Tv5mu1dkUUaeL4bgW",
+      "nome": "Raphaela",
+      "sobrenome": "Latinia",
+      "cpf": "0000000000",
+      "dataDeNascimento": "010101",
+      "id": 2
+    },
+    {
+      "email": "oliviter@mail.com",
+      "password": "$2a$10$lvcgXwziounNFn8u9tsmyeEnUvldNiayM5gSizJxNxO0tFdzpjPyC",
+      "nome": "Rapddhael",
+      "sobrenome": "Latjjini",
+      "cpf": "0000000000",
+      "dataDeNascimento": "010101",
+      "id": 3
+    },
+    {
+      "email": "olivsdser@mail.com",
+      "password": "$2a$10$BeLiTYb/EjCv6N5twxhIJ.hZyMaL6hhwUOEDnDRVLoNblA7YGPPnO",
+      "nome": "Raphael",
+      "sobrenome": "Latini",
+      "cpf": "0000000000",
+      "dataDeNascimento": "010101",
+      "id": 4
+    }
+  ]
+}

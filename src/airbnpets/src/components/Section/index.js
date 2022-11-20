@@ -8,7 +8,9 @@ export default function Section(props) {
 
   return (
     <TouchableOpacity style={styles.container} onPress={()=> navigation.navigate("Details", {
-        name: props.nameHotel
+        name: props.nameHotel,
+        image: props.cover,
+        priceMin: props.priceMin
     })}>
       <Image source={props.cover} style={styles.cover} />
       <View>
