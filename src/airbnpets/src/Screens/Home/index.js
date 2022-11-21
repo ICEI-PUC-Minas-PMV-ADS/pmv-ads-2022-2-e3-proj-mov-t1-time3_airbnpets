@@ -19,12 +19,12 @@ export default function Home() {
   const [hoteis, setHoteis] = useState([]);
 
   useEffect(() => {
-    db.collection("hoteisNovos")
+    db.collection("hoteis")
       .orderBy("data", "desc")
       .onSnapshot((snapshot) => {
         setHoteis(
           snapshot.docs.map((doc) => {
-            return { info: doc.data() };
+            return { info: doc.data(), id: doc.id };
           })
         );
       });
@@ -42,13 +42,16 @@ export default function Home() {
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
-          style={{ paddingStart: 10 }}
+          style={{ paddingEnd: 20}}
         >
           {hoteis.map((hotel, index) => {
             return (
               <TouchableOpacity
                 key={index}
-                style={styles.container}
+                style={[
+                  styles.containerHotel,
+                  index === 0 && {marginStart: 20} 
+                ]}
                 onPress={() =>
                   navigation.navigate("Details", {
                     name: hotel.info.name,
@@ -121,6 +124,9 @@ const styles = StyleSheet.create({
     width: 180,
     height: 130,
     borderRadius: 10,
+  },
+  containerHotel: {
+    marginEnd: 20,
   },
   nameHotel: {
     marginTop: 5,

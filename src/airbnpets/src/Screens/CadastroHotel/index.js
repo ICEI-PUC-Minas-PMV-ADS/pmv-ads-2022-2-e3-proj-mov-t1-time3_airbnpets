@@ -24,7 +24,7 @@ export default function CadastroHotel({navigation}) {
   const [description, setDescription] = useState(null);
 
   function addHotel() {
-    db.collection("hoteisNovos").add({
+    db.collection("hoteis").add({
       CNPJ: CNPJ,
       city: city,
       description: description,
@@ -39,6 +39,7 @@ export default function CadastroHotel({navigation}) {
       priceMin: priceMin,
       state: state,
       street: street,
+      data: new Date(),
     });
     navigation.navigate("Home");
   }
@@ -76,7 +77,7 @@ export default function CadastroHotel({navigation}) {
           onChangeText={setPriceMax}
           value={priceMax}
         ></Input>
-        <TextAreaInput
+        <Input
           placeholder="Descrição"
           numberOfLines={6}
           onChangeText={setDescription}
