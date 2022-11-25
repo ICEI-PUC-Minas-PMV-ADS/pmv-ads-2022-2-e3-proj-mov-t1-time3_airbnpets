@@ -89,6 +89,7 @@ export default function Details({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#FFF",
   },
   containerInfo: {
     padding: 15,

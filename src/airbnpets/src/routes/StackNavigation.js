@@ -9,6 +9,7 @@ import User from "../Screens/User";
 import Contato from "../Screens/Contato";
 
 import ShowBottomTabs from "./TabNavigation";
+import ChatScreen from "../Screens/Chat";
 
 const Stack = createNativeStackNavigator();
 
