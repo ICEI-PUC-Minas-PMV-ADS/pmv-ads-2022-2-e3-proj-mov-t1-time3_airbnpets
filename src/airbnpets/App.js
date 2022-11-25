@@ -1,9 +1,9 @@
-import { StyleSheet} from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import StackNavigation from './src/routes/StackNavigation';
+import React, { useEffect } from "react";
+import { StyleSheet } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import StackNavigation from "./src/routes/StackNavigation";
 
-
-import AppLoading from 'expo-app-loading';
+import AppLoading from "expo-app-loading";
 import {
   useFonts,
   Montserrat_100Thin,
@@ -24,10 +24,12 @@ import {
   Montserrat_800ExtraBold_Italic,
   Montserrat_900Black,
   Montserrat_900Black_Italic,
-} from '@expo-google-fonts/montserrat';
-
+} from "@expo-google-fonts/montserrat";
 
 export default function App() {
+  useEffect(() => {
+    console.disableYellowBox = true;
+  }, []);
 
   let [fontsLoaded] = useFonts({
     Montserrat_100Thin,
@@ -52,11 +54,11 @@ export default function App() {
 
   if (!fontsLoaded) {
     return <AppLoading />;
-  } 
+  }
 
   return (
     <NavigationContainer>
-      <StackNavigation/>
+      <StackNavigation />
     </NavigationContainer>
   );
 }
@@ -64,6 +66,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: "#fff",
   },
 });

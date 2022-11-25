@@ -1,18 +1,18 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import Welcome from '../Screens/Welcome'
-import Login from '../Screens/Login'
-import Home from '../Screens/Home'
-import Cadastro from '../Screens/Cadastre'
-import CadastroHotel from '../Screens/CadastroHotel'
-import Details from '../Screens/Details'
-import User from '../Screens/User'
-import Contato from '../Screens/Contato'
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Welcome from "../Screens/Welcome";
+import Login from "../Screens/Login";
+import Home from "../Screens/Home";
+import Cadastro from "../Screens/Cadastre";
+import CadastroHotel from "../Screens/CadastroHotel";
+import Details from "../Screens/Details";
+import User from "../Screens/User";
+import Contato from "../Screens/Contato";
 
-import ShowBottomTabs from './TabNavigation'
+import ShowBottomTabs from "./TabNavigation";
 
-const Stack = createNativeStackNavigator()
+const Stack = createNativeStackNavigator();
 
-export default props => {
+export default (props) => {
   return (
     <Stack.Navigator initialRouteName="Welcome">
       <Stack.Screen
@@ -46,9 +46,11 @@ export default props => {
         component={CadastroHotel}
       ></Stack.Screen>
       <Stack.Screen name="Contato" component={Contato} />
+      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
+      <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
-  )
-}
+  );
+};
 
 export function HomeNavigation() {
   return (
@@ -59,7 +61,7 @@ export function HomeNavigation() {
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
-  )
+  );
 }
 
 export function LoginNavigation() {
@@ -71,7 +73,7 @@ export function LoginNavigation() {
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
-  )
+  );
 }
 
 export function CadastroHotelNavigation() {
@@ -82,7 +84,7 @@ export function CadastroHotelNavigation() {
         component={CadastroHotel}
       ></Stack.Screen>
     </Stack.Navigator>
-  )
+  );
 }
 
 export function UserNavigation() {
@@ -94,7 +96,7 @@ export function UserNavigation() {
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
-  )
+  );
 }
 
 export function ContatoNavigation() {
@@ -102,5 +104,21 @@ export function ContatoNavigation() {
     <Stack.Navigator>
       <Stack.Screen name="Contato" component={Contato} />
     </Stack.Navigator>
-  )
+  );
+}
+
+export function HomeChatScreenNavigation() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
+    </Stack.Navigator>
+  );
+}
+
+export function ChatScreenNavigation() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Chat" component={ChatScreen} />
+    </Stack.Navigator>
+  );
 }
