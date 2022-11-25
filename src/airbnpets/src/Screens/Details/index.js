@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   View,
   Text,
@@ -6,48 +6,50 @@ import {
   Image,
   ImageBackground,
   ScrollView,
-  TouchableOpacity,
-} from "react-native";
-import { Ionicons } from "@expo/vector-icons";
-import Swiper from "react-native-swiper";
+  TouchableOpacity
+} from 'react-native'
+import { Ionicons } from '@expo/vector-icons'
+import Swiper from 'react-native-swiper'
+import { useNavigation } from '@react-navigation/native'
 
 export default function Details({ route }) {
+  const navigation = useNavigation()
   return (
     <View style={styles.container}>
       <ScrollView vertical>
         <Swiper
-        style={styles.wrapper}
+          style={styles.wrapper}
           dotStyle={{
-            backgroundColor: "#ccc",
+            backgroundColor: '#ccc',
             width: 10,
             height: 10,
-            borderRadius: 10,
+            borderRadius: 10
           }}
           activeDotColor="#45B5C4"
           activeDotStyle={{
             width: 10,
             height: 10,
-            borderRadius: 10,
+            borderRadius: 10
           }}
         >
           <View style={styles.slide}>
             <ImageBackground
               source={{ uri: route.params.image }}
-              style={{ width: "100%", height: 300 }}
+              style={{ width: '100%', height: 300 }}
             />
           </View>
 
           <View style={styles.slide}>
             <ImageBackground
               source={{ uri: route.params.image2 }}
-              style={{ width: "100%", height: 300 }}
+              style={{ width: '100%', height: 300 }}
             />
           </View>
 
           <View style={styles.slide}>
             <ImageBackground
               source={{ uri: route.params.image3 }}
-              style={{ width: "100%", height: 300 }}
+              style={{ width: '100%', height: 300 }}
             />
           </View>
         </Swiper>
@@ -57,9 +59,16 @@ export default function Details({ route }) {
           <Text style={styles.price}>
             R${route.params.priceMin} - R${route.params.priceMax}
           </Text>
-          <TouchableOpacity style={styles.buttonChat}>
+          <TouchableOpacity
+            style={styles.buttonChat}
+            onPress={() =>
+              navigation.navigate('Contato', {
+                phone: route.params.phone
+              })
+            }
+          >
             <Ionicons name="chatbox-outline" size={24} color="#FFF" />
-            <Text style={{ color: "#FFF", fontSize: 16 }}>Chat</Text>
+            <Text style={{ color: '#FFF', fontSize: 16 }}>Chat</Text>
           </TouchableOpacity>
           <Text style={styles.title}>Descrição</Text>
           <Text style={styles.contentSection}>{route.params.description}</Text>
@@ -67,65 +76,64 @@ export default function Details({ route }) {
           <Text style={styles.contentSection}>{route.params.phone}</Text>
           <Text style={styles.title}>Localização</Text>
           <Text style={styles.contentSection}>
-            {route.params.street} - {route.params.number},{" "}
+            {route.params.street} - {route.params.number},{' '}
             {route.params.district}, {route.params.city}
           </Text>
         </View>
       </ScrollView>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 1
   },
   containerInfo: {
     padding: 15,
-    display: "flex",
-    flexDirection: "column",
-    gap: 20,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 20
   },
   nameHotel: {
     fontSize: 22,
-    fontFamily: "Montserrat_600SemiBold",
-    marginBottom: 10,
+    fontFamily: 'Montserrat_600SemiBold',
+    marginBottom: 10
   },
   price: {
     fontSize: 18,
-    color: "#616161",
-    fontFamily: "Montserrat_500Medium",
-    marginBottom: 10,
+    color: '#616161',
+    fontFamily: 'Montserrat_500Medium',
+    marginBottom: 10
   },
   buttonChat: {
-    backgroundColor: "#45B5C4",
+    backgroundColor: '#45B5C4',
     width: 100,
     padding: 10,
-    textAlign: "center",
-    justifyContent: "space-around",
-    alignItems: "center",
+    textAlign: 'center',
+    justifyContent: 'space-around',
+    alignItems: 'center',
     borderRadius: 5,
-    flexDirection: "row",
-    marginBottom: 15,
+    flexDirection: 'row',
+    marginBottom: 15
   },
   title: {
     fontSize: 15,
-    color: "#616161",
-    fontFamily: "Montserrat_600SemiBold",
-    marginBottom: 5,
+    color: '#616161',
+    fontFamily: 'Montserrat_600SemiBold',
+    marginBottom: 5
   },
   contentSection: {
     fontSize: 13,
-    color: "#616161",
-    marginBottom: 10,
+    color: '#616161',
+    marginBottom: 10
   },
   wrapper: {
     height: 300
   },
   slide: {
     flex: 1,
-    justifyContent: "center",
-  alignItems: "center",
-
+    justifyContent: 'center',
+    alignItems: 'center'
   }
-});
+})
