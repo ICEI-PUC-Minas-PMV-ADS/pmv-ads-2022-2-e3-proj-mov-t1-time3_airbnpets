@@ -6,8 +6,9 @@ import Cadastro from "../Screens/Cadastre";
 import CadastroHotel from "../Screens/CadastroHotel";
 import Details from "../Screens/Details";
 import User from "../Screens/User";
-
+import HomeChatScreen from "../Screens/Chat/ChatHome";
 import ShowBottomTabs from "./TabNavigation";
+import ChatScreen from "../Screens/Chat";
 
 const Stack = createNativeStackNavigator();
 
@@ -24,11 +25,28 @@ export default (props) => {
         component={ShowBottomTabs}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
-      <Stack.Screen name="Cadastro" component={Cadastro} options={{headerShown: false}}/>
-      <Stack.Screen name="Details" component={Details}/>
-      <Stack.Screen name="User" component={User} options={{headerShown: false}}/>
-      <Stack.Screen name="CadastroHotel" component={CadastroHotel}></Stack.Screen>
+      <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Cadastro"
+        component={Cadastro}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen name="Details" component={Details} />
+      <Stack.Screen
+        name="User"
+        component={User}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="CadastroHotel"
+        component={CadastroHotel}
+      ></Stack.Screen>
+      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
+      <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
   );
 };
@@ -57,18 +75,41 @@ export function LoginNavigation() {
   );
 }
 
-export function CadastroHotelNavigation(){
+export function CadastroHotelNavigation() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="CadastroHotel" component={CadastroHotel}></Stack.Screen>
+      <Stack.Screen
+        name="CadastroHotel"
+        component={CadastroHotel}
+      ></Stack.Screen>
     </Stack.Navigator>
-  )
+  );
 }
 
-export function UserNavigation(){
+export function UserNavigation() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="User" component={User} options={{headerShown: false}}/>
+      <Stack.Screen
+        name="User"
+        component={User}
+        options={{ headerShown: false }}
+      />
     </Stack.Navigator>
-  )
+  );
+}
+
+export function HomeChatScreenNavigation() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
+    </Stack.Navigator>
+  );
+}
+
+export function ChatScreenNavigation() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Chat" component={ChatScreen} />
+    </Stack.Navigator>
+  );
 }

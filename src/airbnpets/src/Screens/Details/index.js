@@ -10,13 +10,16 @@ import {
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import Swiper from "react-native-swiper";
+import { useNavigation } from "@react-navigation/native";
 
 export default function Details({ route }) {
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <ScrollView vertical>
         <Swiper
-        style={styles.wrapper}
+          style={styles.wrapper}
           dotStyle={{
             backgroundColor: "#ccc",
             width: 10,
@@ -57,7 +60,10 @@ export default function Details({ route }) {
           <Text style={styles.price}>
             R${route.params.priceMin} - R${route.params.priceMax}
           </Text>
-          <TouchableOpacity style={styles.buttonChat}>
+          <TouchableOpacity
+            style={styles.buttonChat}
+            onPress={() => navigation.navigate("Chat")}
+          >
             <Ionicons name="chatbox-outline" size={24} color="#FFF" />
             <Text style={{ color: "#FFF", fontSize: 16 }}>Chat</Text>
           </TouchableOpacity>
@@ -79,6 +85,7 @@ export default function Details({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#FFF",
   },
   containerInfo: {
     padding: 15,
@@ -120,12 +127,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   wrapper: {
-    height: 300
+    height: 300,
   },
   slide: {
     flex: 1,
     justifyContent: "center",
-  alignItems: "center",
-
-  }
+    alignItems: "center",
+  },
 });

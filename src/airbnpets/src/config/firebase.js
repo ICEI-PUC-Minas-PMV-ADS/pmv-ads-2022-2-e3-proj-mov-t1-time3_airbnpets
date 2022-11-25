@@ -1,6 +1,8 @@
 import firebase from 'firebase'
 import 'firebase/firestore'
 
+// verfificar erro de conexão
+
 const firebaseApp = firebase.initializeApp({
   apiKey: 'AIzaSyAf9a7iIE9zqBiBVRfjVRIGTTqOsZwbrPI',
   authDomain: 'airbnpets-8969d.firebaseapp.com',
