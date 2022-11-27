@@ -175,17 +175,15 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O aplicativo deverá possuir possibilidade de navegação para usuários não cadastrados. | ALTA | 
-|RF-002| O aplicativo deverá possibilitar o cadastro de hospedagens para pet por qualquer usuário.   | ALTA |
-|RF-003| O aplicativo deve permitir que os locais cadastrados possam ter descrições sobre seus serviços.   | ALTA |
-|RF-004| O aplicativo deve permitir ao responsável pelo local cadastrado editar as informações.   | ALTA|
-|RF-005| O aplicativo deve possibilitar ao responsável pelo local cadastrado a exibição de fotos.  | MÉDIA |
-|RF-006|O aplicativo deve permitir ao responsável pelo local cadastrado inativar e ativar o local a qualquer momento.  | ALTA|
-|RF-007| O aplicativo deve possibilitar aos usuários realizar buscas por nome do local, cidade ou bairro. | ALTA |
-|RF-008| O aplicativo deve exibir os resultados de pesquisas como lista   | ALTA|
-|RF-009| O aplicativo deve possibilitar a visualização da página da hospedagem de interesse através da seleção de um item na lista pesquisada.  | ALTA |
-|RF-010| O aplicativo deve possuir um sistema de mensagem para os usuários entrarem em contato com o dono da hospedagem.  | ALTA |
-|RF-012| O aplicativo deve permitir a todos usuários a possibilidade de troca de senha.   | ALTA |
+|RF-001| O aplicativo deverá possibilitar o cadastro de hospedagens para pet por qualquer usuário.   | ALTA |
+|RF-002| O aplicativo deve permitir que os locais cadastrados possam ter descrições sobre seus serviços.   | ALTA |
+|RF-003| O aplicativo deve permitir ao responsável pelo local cadastrado editar as informações.   | ALTA|
+|RF-004| O aplicativo deve possibilitar ao responsável pelo local cadastrado a exibição de fotos.  | MÉDIA |
+|RF-005|O aplicativo deve permitir ao responsável pelo local cadastrado inativar e ativar o local a qualquer momento.  | ALTA|
+|RF-006| O aplicativo deve possibilitar aos usuários realizar buscas por nome do local, cidade ou bairro. | ALTA |
+|RF-007| O aplicativo deve exibir os resultados de pesquisas como lista   | ALTA|
+|RF-008| O aplicativo deve possuir um sistema de mensagem para os usuários entrarem em contato com o dono da hospedagem.  | ALTA |
+|RF-009| O aplicativo deve permitir a todos usuários a possibilidade de troca de senha.   | ALTA |
 
 ### Requisitos não Funcionais
 
