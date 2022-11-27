@@ -6,8 +6,6 @@ import Cadastro from "../Screens/Cadastre";
 import CadastroHotel from "../Screens/CadastroHotel";
 import Details from "../Screens/Details";
 import User from "../Screens/User";
-import Contato from "../Screens/Contato";
-
 import ShowBottomTabs from "./TabNavigation";
 
 const Stack = createNativeStackNavigator();
