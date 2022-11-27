@@ -185,10 +185,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-008| O aplicativo deve exibir os resultados de pesquisas como lista   | ALTA|
 |RF-009| O aplicativo deve possibilitar a visualização da página da hospedagem de interesse através da seleção de um item na lista pesquisada.  | ALTA |
 |RF-010| O aplicativo deve possuir um sistema de mensagem para os usuários entrarem em contato com o dono da hospedagem.  | ALTA |
-|RF-011| O aplicativo deve permitir que usuários postem avaliações sobre as hospedagens utilizadas.  | ALTA |
 |RF-012| O aplicativo deve permitir a todos usuários a possibilidade de troca de senha.   | ALTA |
-|RF-013| O aplicativo deve possuir conectividade com redes sociais.   | BAIXA |
-|RF-014| O aplicativo deve permitir ao usuário favoritar locais.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
