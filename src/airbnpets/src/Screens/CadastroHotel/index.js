@@ -1,12 +1,18 @@
 import React, { useState } from "react";
-import { View, StyleSheet, Text, ScrollView, TouchableOpacity } from "react-native";
+import {
+  View,
+  StyleSheet,
+  Text,
+  ScrollView,
+  TouchableOpacity,
+} from "react-native";
 import Input from "../../components/input/input";
-import TextAreaInput from "../../components/TextAreaInput";
 import FilledButton from "../../components/FilledButton";
 import { db } from "../../config/firebase";
 import { useNavigation } from "@react-navigation/native";
 
-export default function CadastroHotel({navigation}) {
+export default function CadastroHotel() {
+  const navigation = useNavigation();
 
   const [name, setName] = useState(null);
   const [image, setImage] = useState(null);
@@ -22,6 +28,7 @@ export default function CadastroHotel({navigation}) {
   const [priceMax, setPriceMax] = useState(null);
   const [CNPJ, setCNPJ] = useState(null);
   const [description, setDescription] = useState(null);
+  const [email, setEmail] = useState(null);
 
   function addHotel() {
     db.collection("hoteis").add({
@@ -40,6 +47,7 @@ export default function CadastroHotel({navigation}) {
       state: state,
       street: street,
       data: new Date(),
+      email: email,
     });
     navigation.navigate("Home");
   }
@@ -105,6 +113,11 @@ export default function CadastroHotel({navigation}) {
           value={state}
         ></Input>
         <Input
+          placeholder="Email"
+          onChangeText={setEmail}
+          value={email}
+        ></Input>
+        <Input
           placeholder="Telefone de Contato"
           onChangeText={setPhone}
           value={phone}
@@ -114,8 +127,8 @@ export default function CadastroHotel({navigation}) {
           text="CADASTRAR HOTEL"
           background="#45B5C4"
           color="#FFF"
-          onPress={()=>{
-            addHotel()
+          onPress={() => {
+            addHotel();
           }}
         />
       </ScrollView>

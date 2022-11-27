@@ -34,26 +34,12 @@ export default function Welcome({ navigation }) {
         >
           <Text
             style={{
-              color: "#45B5C4",
-              fontSize: 18,
-              fontFamily: "Montserrat_600SemiBold",
-            }}
-          >
-            LOGIN
-          </Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.buttonExperimentar}
-          onPress={() => navigation.navigate("Home")}
-        >
-          <Text
-            style={{
               color: "#FFF",
               fontSize: 18,
               fontFamily: "Montserrat_600SemiBold",
             }}
           >
-            EXPERIMENTAR
+            LOGIN
           </Text>
         </TouchableOpacity>
       </View>
@@ -71,27 +57,21 @@ const styles = StyleSheet.create({
   },
   buttonLogin: {
     fontSize: 40,
-    padding: 20,
-    marginTop: 20,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  buttonExperimentar: {
-    fontSize: 40,
     backgroundColor: "#45B5C4",
     padding: 20,
-    marginTop: 10,
-    justifyContent: "center",
+
     alignItems: "center",
     borderRadius: 10,
   },
   image: {
-    width: 350,
-    height: 350,
+    width: "100%",
+    height: "100%",
     resizeMode: "contain",
-    flex: 5,
+    flex: 4,
+    marginTop: 10,
   },
   containerButtons: {
-    flex: 3,
+    flex: 2,
+    justifyContent: "space-around",
   },
 });

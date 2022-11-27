@@ -1,28 +1,75 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-import Input from '../../components/input/input'
+import React, { useEffect, useCallback } from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  Linking,
+  TouchableOpacity,
+  Alert,
+  Button,
+} from "react-native";
+import Input from "../../components/input/input";
 
-const Contato = () => {
-  const text = React.useState('')
+const OpenUrlButton = ({ url, children, color }) => {
+  const whatsappLink = useCallback(async () => {
+    const link = await Linking.canOpenURL(url);
+    if (link) {
+      await Linking.openURL(url);
+    } else {
+      Alert.alert("Esse número é invalido");
+    }
+  }, [url]);
+
+  return (
+    <TouchableOpacity
+      style={[styles.button, { backgroundColor: color }]}
+      title="teste"
+      onPress={whatsappLink}
+    >
+      {children}
+    </TouchableOpacity>
+  );
+};
+
+const Contato = ({ route }) => {
+  const linkWpp = `https://wa.me/${route.params.phone}`;
+  const linkEmail = route.params.email;
 
   return (
     <View style={styles.container}>
-      <Text
-        style={{
-          color: 'black',
-          fontSize: 22,
-          fontFamily: 'Montserrat_500Medium',
-          textAlign: 'center',
-          maxWidth: 300
-        }}
-      >
-        Informações de contato
+      <Text style={styles.title}>Endereço</Text>
+      <Text>
+        {route.params.street} - {route.params.number}, {route.params.district},{" "}
+        {route.params.city} - {route.params.state}
       </Text>
-      <Text style={styles.labelComponente}>Email</Text>
-      <Input placeholder="user@gmail.com" />
+      {route.params.email && (
+        <OpenUrlButton url={linkEmail} color="#fc354c">
+          <Text style={{ color: "#fff", fontSize: 20 }}>Email</Text>
+        </OpenUrlButton>
+      )}
 
-      <Text style={styles.labelComponente}>Telefone</Text>
-      <Input placeholder="09.131.099/0001-12" />
+      {route.params.phone && (
+        <OpenUrlButton url={linkWpp} color="#59a87d">
+          <Text style={{ color: "#fff", fontSize: 20 }}>Whatsapp</Text>
+        </OpenUrlButton>
+      )}
     </View>
-  )
-}
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+  },
+  button: {
+    padding: 20,
+    borderRadius: 10,
+    marginTop: 20,
+  },
+  title: {
+    fontSize: 20,
+  },
+});
+
+export default Contato;

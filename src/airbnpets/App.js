@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, LogBox } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import StackNavigation from "./src/routes/StackNavigation";
 
@@ -29,6 +29,7 @@ import {
 export default function App() {
   useEffect(() => {
     console.disableYellowBox = true;
+    LogBox.ignoreAllLogs();
   }, []);
 
   let [fontsLoaded] = useFonts({

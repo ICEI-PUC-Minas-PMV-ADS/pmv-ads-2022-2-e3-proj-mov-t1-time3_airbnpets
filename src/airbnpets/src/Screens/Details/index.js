@@ -8,7 +8,6 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
 import Swiper from "react-native-swiper";
 import { useNavigation } from "@react-navigation/native";
 
@@ -60,26 +59,26 @@ export default function Details({ route }) {
           <Text style={styles.price}>
             R${route.params.priceMin} - R${route.params.priceMax}
           </Text>
+          <Text style={styles.title}>Descrição</Text>
+          <Text style={styles.contentSection}>{route.params.description}</Text>
           <TouchableOpacity
-            style={styles.buttonChat}
+            style={styles.buttonContato}
             onPress={() =>
               navigation.navigate("Contato", {
                 phone: route.params.phone,
+                email: route.params.email,
+                street: route.params.street,
+                number: route.params.number,
+                district: route.params.district,
+                state: route.params.state,
+                city: route.params.city,
               })
             }
           >
-            <Ionicons name="chatbox-outline" size={24} color="#FFF" />
-            <Text style={{ color: "#FFF", fontSize: 16 }}>Chat</Text>
+            <Text style={{ color: "#FFF", fontSize: 25 }}>
+              Dados de Contato
+            </Text>
           </TouchableOpacity>
-          <Text style={styles.title}>Descrição</Text>
-          <Text style={styles.contentSection}>{route.params.description}</Text>
-          <Text style={styles.title}>Contato</Text>
-          <Text style={styles.contentSection}>{route.params.phone}</Text>
-          <Text style={styles.title}>Localização</Text>
-          <Text style={styles.contentSection}>
-            {route.params.street} - {route.params.number},{" "}
-            {route.params.district}, {route.params.city}
-          </Text>
         </View>
       </ScrollView>
     </View>
@@ -108,16 +107,15 @@ const styles = StyleSheet.create({
     fontFamily: "Montserrat_500Medium",
     marginBottom: 10,
   },
-  buttonChat: {
+  buttonContato: {
     backgroundColor: "#45B5C4",
-    width: 100,
-    padding: 10,
+    padding: 15,
     textAlign: "center",
     justifyContent: "space-around",
     alignItems: "center",
-    borderRadius: 5,
+    borderRadius: 10,
     flexDirection: "row",
-    marginBottom: 15,
+    marginBottom: 10,
   },
   title: {
     fontSize: 15,
@@ -128,7 +126,7 @@ const styles = StyleSheet.create({
   contentSection: {
     fontSize: 13,
     color: "#616161",
-    marginBottom: 10,
+    marginBottom: 20,
   },
   wrapper: {
     height: 300,

@@ -9,7 +9,6 @@ import User from "../Screens/User";
 import Contato from "../Screens/Contato";
 
 import ShowBottomTabs from "./TabNavigation";
-import ChatScreen from "../Screens/Chat";
 
 const Stack = createNativeStackNavigator();
 
@@ -47,8 +46,6 @@ export default (props) => {
         component={CadastroHotel}
       ></Stack.Screen>
       <Stack.Screen name="Contato" component={Contato} />
-      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
-      <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
   );
 };
@@ -104,22 +101,6 @@ export function ContatoNavigation() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Contato" component={Contato} />
-    </Stack.Navigator>
-  );
-}
-
-export function HomeChatScreenNavigation() {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name="HomeChat" component={HomeChatScreen} />
-    </Stack.Navigator>
-  );
-}
-
-export function ChatScreenNavigation() {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name="Chat" component={ChatScreen} />
     </Stack.Navigator>
   );
 }

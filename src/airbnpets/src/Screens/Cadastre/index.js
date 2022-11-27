@@ -1,150 +1,148 @@
-import React,{useState} from 'react';
-import {View, StyleSheet,Alert} from 'react-native';
-import {Button, TextInput, IconButton} from 'react-native-paper';
+import React, { useState } from "react";
+import { View, StyleSheet, Alert, ScrollView } from "react-native";
+import { Button, TextInput, IconButton } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
-
-import{register} from '../../services/auth.services';
-
+import { auth, db } from "../../config/firebase";
+import Input from "../../components/input/input";
+import Header from "../../components/Header";
 
 const Cadastro = () => {
+  const navigation = useNavigation();
 
-    const navigation= useNavigation();
+  const [year, setYear] = useState(null);
+  const [birthDate, setBirthDate] = useState(null);
+  const [name, setName] = useState(null);
+  const [lastName, setLastName] = useState(null);
+  const [email, setEmail] = useState(null);
+  const [password, setPassword] = useState(null);
+  const [phone, setPhone] = useState(null);
+  const [number, setNumber] = useState(null);
+  const [street, setStreet] = useState(null);
+  const [district, setDistrict] = useState(null);
+  const [city, setCity] = useState(null);
+  const [state, setState] = useState(null);
 
-    const [nome, setNome]=useState('Raphael');
-    const [sobrenome,setSobrenome]=useState('Latini');
-    const [email,setEmail]=useState('raphael@hotmal.com');
-    const [cpf,setCpf]=useState('0252523652');
-    const [telefone,setTelefone]=useState('34562536');
-    const [data,setData]=useState('01011985');
-    const [senha,setSenha]=useState('123456');
-
-    const acionarRegister=()=>{
-      register({
-        nome:nome,
-        sobrenome:sobrenome,
-        email:email,
-        cpf:cpf,
-        telefone:telefone,
-        data:data,
-        senha:senha
-
-      }).then(res =>{
-        console.log(res)
-        
-      if(res){
-        Alert.alert('Usuário Cadastrado com sucesso!',[
-          { text: "OK", onPress: () => navigation.goBack() }
-        ]);
-
-      }else{
-
-         Alert.alert( 'Usuário não cadastrado! Tente novamente ');
-      }
+  const register = () => {
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((authUser) => {
+        db.collection("users").add({
+          city: city,
+          district: district,
+          name: name,
+          lastName: lastName,
+          email: email,
+          year: year,
+          birthDate: birthDate,
+          password: password,
+          number: number,
+          phone: phone,
+          state: state,
+          street: street,
+          id: authUser.user.uid,
+        });
+        navigation.navigate("Login");
       })
+      .catch(() => {
+        Alert.alert("Você deve preencher todos os campos para se cadastrar");
+      });
+  };
 
-    }
+  return (
+    <View style={styles.container}>
+      <Header rowBack to="Login" />
+      <ScrollView style={{ marginTop: 15 }}>
+        <Input placeholder="Nome" onChangeText={setName} value={name}></Input>
+        <Input
+          placeholder="Sobrenome"
+          onChangeText={setLastName}
+          value={lastName}
+        ></Input>
+        <Input placeholder="Email" onChangeText={setEmail} value={email} />
+        <Input
+          placeholder="Password"
+          onChangeText={setPassword}
+          value={password}
+        />
+        <Input placeholder="Idade" onChangeText={setYear} value={year}></Input>
+        <Input
+          placeholder="Data de Nascimento"
+          onChangeText={setBirthDate}
+          value={birthDate}
+        />
+        <Input
+          placeholder="Rua"
+          onChangeText={setStreet}
+          value={street}
+        ></Input>
+        <Input
+          placeholder="Número da Rua"
+          onChangeText={setNumber}
+          value={number}
+        ></Input>
+        <Input placeholder="Bairro" onChangeText={setDistrict}></Input>
+        <Input placeholder="Cidade" onChangeText={setCity} value={city}></Input>
+        <Input
+          placeholder="Estado"
+          onChangeText={setState}
+          value={state}
+        ></Input>
+        <Input
+          placeholder="Telefone de Contato"
+          onChangeText={setPhone}
+          value={phone}
+        ></Input>
 
-  return(
-
-    <View> 
-      <IconButton
-    icon="arrow-left"
-    iconColor="#EBEBEB"
-    size={30}
-    onPress={() => console.log('Pressed')}/>
-    <View style={styles.row}>
-      <TextInput style={styles.nome}
-      label="Nome"
-      autoComplete="name"
-      value={nome}
-      onChangeText={text => setNome(text)}/>
-
-      <TextInput style={styles.sobrenome}
-      label="Sobrenome"
-      autoComplete="name-family"
-      value={sobrenome}
-      onChangeText={text => setSobrenome(text)}/>
+        <Button
+          style={styles.button}
+          size={20}
+          mode="contained"
+          onPress={register}
+        >
+          {" "}
+          CADASTRAR{" "}
+        </Button>
+      </ScrollView>
     </View>
-      <TextInput style={styles.input}
-      label="Email"
-      keyboardtype="email-address"
-      autoComplete="email"
-      selectionColor="#EBEBEB"
-      value={email}
-      onChangeText={text => setEmail(text)}/>
-
-      <TextInput style={styles.input}
-      label="CPF"
-      value={cpf}
-      onChangeText={text => setCpf(text)}/>
-
-      <TextInput style={styles.input}
-      label="Telefone"
-      keyboardtype="numeric"
-      value={telefone}
-      onChangeText={text => setTelefone(text)}/>
-
-      <TextInput style={styles.input}
-      label="Data de nascimento"
-      value={data}
-      onChangeText={text => setData(text)}/>
-
-      <TextInput style={styles.input}
-      label="Senha"
-      value={senha}
-      secureTextEntry
-      keyboardtype="visible-password"
-      onChangeText={(text)=>setSenha(text)}
-      right={<TextInput.Icon icon="eye" />}/>
-
-      
-
-      <Button style={styles.button} 
-      size={20} 
-      mode="contained" 
-      onPress={acionarRegister}> CADASTRAR </Button>
-    
-    </View>
-    
   );
-
-}
+};
 
 const styles = StyleSheet.create({
-    nome: {
-        flex: 1,
-        marginLeft: 20,
-        marginRight: 3,
-        fontFamily: "Montserrat_400Regular",
-        borderRadius: 15,
-        overflow: 'hidden'
-    },
-    sobrenome: {
-        flex: 1,
-        marginLeft: 3,
-        marginRight: 20,
-        fontFamily: "Montserrat_400Regular",
-        borderRadius: 15
-    },
-    input: {
-        marginTop: 8,
-        marginLeft: 20,
-        marginRight: 20,
-        fontFamily: "Montserrat_400Regular",
-        borderRadius: 15,
-    },
-    button: {
-      marginTop: 20,
-      marginLeft: 20,
-      marginRight: 20,
-      backgroundColor: "#45B5C4",
-      fontFamily: "Montserrat_400Regular",
-      borderRadius: 13,
-    },
-    row: {
+  container: {
+    paddingTop: 24,
+  },
+  nome: {
+    flex: 1,
+    marginLeft: 20,
+    marginRight: 3,
+    fontFamily: "Montserrat_400Regular",
+    borderRadius: 15,
+    overflow: "hidden",
+  },
+  sobrenome: {
+    flex: 1,
+    marginLeft: 3,
+    marginRight: 20,
+    fontFamily: "Montserrat_400Regular",
+    borderRadius: 15,
+  },
+  input: {
+    marginTop: 8,
+    marginLeft: 20,
+    marginRight: 20,
+    fontFamily: "Montserrat_400Regular",
+    borderRadius: 15,
+  },
+  button: {
+    margin: 30,
+    backgroundColor: "#45B5C4",
+    fontFamily: "Montserrat_400Regular",
+    borderRadius: 13,
+  },
+  row: {
     flexDirection: "row",
     flexWrap: "wrap",
   },
-})
+});
 
 export default Cadastro;
